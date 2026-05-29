@@ -507,7 +507,7 @@ ol, ul { list-style: none; }
   white-space: nowrap;
 }
 .accordion-sub {
-  font-size: var(--text-sm);
+  font-size: 14px;
   color: var(--c-secondary);
   line-height: 1.7;
 }
@@ -522,7 +522,7 @@ ol, ul { list-style: none; }
   align-items: center;
   justify-content: space-between;
   padding: 22px 0;
-  font-size: var(--text-md);
+  font-size: 16px;
   font-weight: 400;
   color: var(--c-fg);
   text-align: left;
@@ -538,7 +538,7 @@ ol, ul { list-style: none; }
 }
 .accordion-item.open .acc-icon { transform: rotate(180deg); }
 .accordion-body {
-  font-size: var(--text-sm);
+  font-size: 14px;
   color: var(--c-secondary);
   line-height: 1.8;
   max-height: 0;
