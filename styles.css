@@ -904,7 +904,7 @@ ol, ul { list-style: none; }
   gap: var(--sp-3);
 }
 .footer-nav-col a {
-  font-size: var(--text-sm);
+  font-size: 18px;
   color: rgba(255,255,255,.5);
   transition: color .2s;
 }
