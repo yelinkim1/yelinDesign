@@ -20,15 +20,15 @@
   --f-sans: 'Inter', 'Noto Sans KR', -apple-system, sans-serif;
 
   /* Scale */
-  --text-xs:   11px;
-  --text-sm:   13px;
+  --text-xs:   12px;
+  --text-sm:   14px;
   --text-base: 14px;
-  --text-md:   15px;
+  --text-md:   16px;
   --text-lg:   18px;
   --text-xl:   24px;
-  --text-2xl:  32px;
+  --text-2xl:  28px;
   --text-3xl:  44px;
-  --text-4xl:  56px;
+  --text-4xl:  48px;
 
   /* Space */
   --sp-1:  4px;
