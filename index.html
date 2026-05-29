@@ -725,7 +725,7 @@
             </div>
           </div>
           <div class="portfolio-body">
-            <h3 class="portfolio-card-title">Design System Structure &amp; Documentation</h3>
+            <h3 class="portfolio-card-title">SaaS Admin Design System 구축 및 개발 연동 환경 고도화</h3>
             <p class="portfolio-card-desc">컴포넌트 구조와 사용 기준을 재정리하고, 개발 문서와 연결 가능한 디자인 시스템 운영 기반을 구축한 프로젝트입니다.</p>
             <div class="portfolio-card-tags">
               <span class="badge">Design System</span>
@@ -758,7 +758,7 @@
             </div>
           </div>
           <div class="portfolio-body">
-            <h3 class="portfolio-card-title">SSP 기반 외부 솔루션 연동 POC 및 Admin UX/UI 설계</h3>
+            <h3 class="portfolio-card-title">SaaS Admin Management 기능 기획 및 데이터 관리 UX 설계</h3>
             <p class="portfolio-card-desc">Space Vision, Trace it, Seerslab 등 외부 솔루션과 SSP의 연동 가능성을 검토하고, Dashboard / Map View POC와 Admin 관리 기능을 설계한 프로젝트입니다.</p>
             <div class="portfolio-card-tags">
               <span class="badge">POC UX</span>
@@ -768,9 +768,8 @@
               <span class="badge-gray badge">External Integration</span>
             </div>
             <div class="portfolio-card-footer">
-              <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px;">
-                <span style="font-size:12px; color:var(--text-tertiary);">Product Designer / POC UX Designer · 2025</span>
-                <button onclick="openDetailSSP()" class="btn btn-ghost">
+              <div style="display:flex; align-items:center; justify-content:flex-end;">
+                <button onclick="openDetailAdmin()" class="btn btn-ghost">
                   View Project
                   <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
@@ -790,7 +789,7 @@
             </div>
           </div>
           <div class="portfolio-body">
-            <h3 class="portfolio-card-title">BI Dashboard &amp; Data Visualization</h3>
+            <h3 class="portfolio-card-title">SSP 기반 외부 솔루션 연동 POC 및 Admin UX/UI 설계</h3>
             <p class="portfolio-card-desc">복잡한 운영 데이터를 빠르게 파악할 수 있도록 대시보드 정보 구조와 시각화 컴포넌트를 설계한 프로젝트입니다.</p>
             <div class="portfolio-card-tags">
               <span class="badge">BI Dashboard</span>
@@ -800,7 +799,10 @@
             </div>
             <div class="portfolio-card-footer">
               <div style="display:flex; align-items:center; justify-content:flex-end;">
-                <span style="font-size:13px; color:var(--text-tertiary); font-weight:500;">Coming Soon</span>
+                <button onclick="openDetailSSP()" class="btn btn-ghost">
+                  View Project
+                  <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
               </div>
             </div>
           </div>
@@ -1320,8 +1322,371 @@
 
   </div><!-- /#detail-page-ssp -->
 
+  <!-- ===== DETAIL PAGE: SSP ADMIN MANAGEMENT ===== -->
+  <div id="detail-page-admin" style="display:none;">
+
+  <div style="position:sticky;top:0;z-index:100;height:64px;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid #E5E7EB;">
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;height:100%;">
+      <a class="nav-logo" href="#" onclick="closeDetailAdmin();return false;">YERIN<span style="color:#2563EB;">.K</span></a>
+      <button onclick="closeDetailAdmin()" style="display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:8px;font-size:14px;font-weight:600;color:#6B7280;background:#F9FAFB;border:1px solid #E5E7EB;cursor:pointer;">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 3L5 8l5 5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Back to Portfolio
+      </button>
+    </div>
+  </div>
+
+  <section id="project-ssp-admin-management">
+    <div class="container">
+
+      <!-- 1. Hero -->
+      <div class="detail-hero fade-in">
+        <p class="detail-caption">SaaS Admin · Management UX · IA · UX/UI Design</p>
+        <h1 class="detail-h1">SSP Admin Management 기능 기획<br>및 UX/UI 설계</h1>
+        <p class="detail-body">SaaS 운영 환경에서 필요한 Tenant, Company, Data 관리 기능을 기획하고, Admin 사용자가 조직·테넌트·데이터 구조를 효율적으로 관리할 수 있도록 UX/UI를 설계한 프로젝트입니다.</p>
+        <div class="detail-meta-grid" style="margin-bottom:40px;">
+          <div class="detail-meta-card"><div class="detail-meta-label">Role</div><div class="detail-meta-value">Product Designer<br>Admin UX Designer</div></div>
+          <div class="detail-meta-card"><div class="detail-meta-label">Scope</div><div class="detail-meta-value">Admin IA, UX/UI Design<br>User Flow, Dev QA</div></div>
+          <div class="detail-meta-card"><div class="detail-meta-label">Project Type</div><div class="detail-meta-value">Tenant Management<br>Company Management<br>Data Management</div></div>
+          <div class="detail-meta-card"><div class="detail-meta-label">Duration</div><div class="detail-meta-value">약 6주</div></div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;">
+          <div style="background:var(--accent-light);border:1px solid var(--accent-mid);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:32px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;">4</div>
+            <div style="font-size:13px;color:var(--text-secondary);margin-top:4px;font-weight:500;">주요 프로젝트 영역</div>
+          </div>
+          <div style="background:var(--accent-light);border:1px solid var(--accent-mid);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:32px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;">3</div>
+            <div style="font-size:13px;color:var(--text-secondary);margin-top:4px;font-weight:500;">기획/디자인한 Admin 관리 기능</div>
+          </div>
+          <div style="background:var(--accent-light);border:1px solid var(--accent-mid);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:32px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;">5</div>
+            <div style="font-size:13px;color:var(--text-secondary);margin-top:4px;font-weight:500;">Tenant Management 설계 영역</div>
+          </div>
+          <div style="background:var(--accent-light);border:1px solid var(--accent-mid);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:32px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;">5</div>
+            <div style="font-size:13px;color:var(--text-secondary);margin-top:4px;font-weight:500;">Data Management 설계 단계</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Background -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Background</h2>
+        <p class="detail-section-desc">SSP Admin은 테넌트, 회사, 데이터 구조를 관리해야 하는 SaaS 운영 플랫폼입니다. 기능별 요구사항은 존재했지만, 실제 사용자가 정보를 탐색하고 설정을 변경하는 화면 구조와 관리 흐름은 구체화가 필요한 상태였습니다.</p>
+        <p style="font-size:15px;color:var(--text-secondary);line-height:1.75;margin-bottom:32px;">Admin 사용자가 복잡한 조직·테넌트·데이터 정보를 쉽게 탐색하고 관리할 수 있도록, 기능별 IA와 화면 구조를 정리하는 과정이 필요했습니다.</p>
+      </div>
+
+      <!-- 3. Problem -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Problem</h2>
+        <p class="detail-section-desc">SaaS Admin 관리 기능은 여러 도메인으로 나뉘어 있었고, 각 기능의 정보 구조와 사용 흐름을 일관된 기준으로 정리할 필요가 있었습니다.</p>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
+          <div class="detail-card"><div class="detail-card-num">01</div><div class="detail-card-title">관리 기능 IA 기준 부족</div><div class="detail-card-desc">Tenant, Company, Data 관리 기능의 정보 구조가 명확히 정리되지 않아 메뉴와 화면 흐름을 재구성할 필요가 있었습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">02</div><div class="detail-card-title">Detail 화면 탭 구조 필요</div><div class="detail-card-desc">Tenant Detail 화면에서 General, Store, Design 등 정보를 어떤 기준으로 구분하고 탐색하게 할지 기준이 필요했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">03</div><div class="detail-card-title">복잡한 데이터 관리 구조</div><div class="detail-card-desc">Data Management는 데이터 구조가 복잡해 Admin 사용자가 이해하기 쉬운 메뉴 설계와 유저 플로우가 필요했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">04</div><div class="detail-card-title">변경사항 반영 및 화면 개선 필요</div><div class="detail-card-desc">Company Management 화면의 기획 누락과 변경사항을 점검하고, 일관된 UI 패턴으로 반영할 필요가 있었습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">05</div><div class="detail-card-title">개발 구현 검수 필요</div><div class="detail-card-desc">개발된 View/Edit 기능이 디자인 산출물과 일치하는지 확인하고, 구현 품질을 검수하는 과정이 필요했습니다.</div></div>
+        </div>
+      </div>
+
+      <!-- 4. Goal -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Goal</h2>
+        <p class="detail-section-desc">Admin 사용자가 테넌트, 회사, 데이터 정보를 쉽게 탐색하고 관리할 수 있도록 기능 구조를 정리하고, 개발 가능한 수준의 화면 설계와 유저 플로우를 제공하는 것을 목표로 했습니다.</p>
+        <div class="detail-cards-grid">
+          <div class="detail-card"><div class="detail-card-num" style="background:#F0FDF4;border-color:#BBF7D0;color:#16A34A;">01</div><div class="detail-card-title">Structure Admin IA</div><div class="detail-card-desc">Tenant, Company, Data 관리 기능을 사용 목적과 정보 구조에 맞게 분류하고 메뉴 체계를 정리합니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num" style="background:#F0FDF4;border-color:#BBF7D0;color:#16A34A;">02</div><div class="detail-card-title">Design Management Flow</div><div class="detail-card-desc">List, Detail, Tab 구조를 기반으로 Admin 사용자가 필요한 정보를 탐색하고 설정을 변경할 수 있는 흐름을 설계합니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num" style="background:#F0FDF4;border-color:#BBF7D0;color:#16A34A;">03</div><div class="detail-card-title">Clarify Data Management</div><div class="detail-card-desc">복잡한 데이터 관리 개념을 Data Ingestion 유저 플로우와 화면 단위로 구체화합니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num" style="background:#F0FDF4;border-color:#BBF7D0;color:#16A34A;">04</div><div class="detail-card-title">Align with Development</div><div class="detail-card-desc">개발팀 요구사항을 확인하고 구현 화면을 검수하여 디자인 산출물이 실제 제품 구현까지 연결되도록 합니다.</div></div>
+        </div>
+      </div>
+
+      <!-- 5. My Role -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">My Role</h2>
+        <p class="detail-section-desc">Product Designer이자 Admin UX Designer로서 SaaS Admin 관리 기능의 IA 설계, 화면 기획, UX/UI 디자인, 데이터 관리 유저 플로우 작성, 개발 리뷰 및 구현 화면 검수까지 담당했습니다.</p>
+        <div class="detail-cards-grid" style="grid-template-columns:repeat(2,1fr);">
+          <div class="detail-card"><div class="detail-card-num">01</div><div class="detail-card-title">Admin IA Design</div><div class="detail-card-desc">Tenant, Company, Data Management 기능을 분류하고, Admin 사용자가 탐색하기 쉬운 메뉴와 화면 구조를 설계했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">02</div><div class="detail-card-title">Tenant Management UX/UI</div><div class="detail-card-desc">Tenant List / Detail 화면을 중심으로 General, Store, Design 탭 구조와 관리 기능을 기획·디자인했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">03</div><div class="detail-card-title">Data Management UX</div><div class="detail-card-desc">SaaS 데이터 관리 솔루션을 리서치하고, Data Ingestion 중심의 유저 플로우와 화면 구조를 설계했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">04</div><div class="detail-card-title">Company Management Improvement</div><div class="detail-card-desc">Company Management 화면의 기획 누락과 변경사항을 점검하고, 컴포넌트 및 UI 구조를 개선했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">05</div><div class="detail-card-title">Development Review</div><div class="detail-card-desc">개발팀 요구사항을 확인하고 기획 범위를 조율하며, 변경사항을 디자인에 반영했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">06</div><div class="detail-card-title">View / Edit QA</div><div class="detail-card-desc">Map View / Editor의 View/Edit 기능을 검수하며 디자인 산출물과 구현 결과 간 차이를 확인했습니다.</div></div>
+        </div>
+      </div>
+
+      <!-- 6. Process -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Process</h2>
+        <p class="detail-section-desc">기존 요구사항을 확인한 뒤 Tenant, Company, Data 관리 기능을 분류하고, List / Detail / Tab 기반 IA와 Data Ingestion 유저 플로우를 중심으로 화면 설계와 개발 검수를 진행했습니다.</p>
+        <div class="timeline">
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">01</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">Requirement Review</div><div class="timeline-desc">기존 요구사항과 기능 범위를 확인하고, Admin 관리 기능에서 필요한 화면 구조를 검토했습니다.</div></div></div>
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">02</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">Management Feature Classification</div><div class="timeline-desc">Tenant, Company, Data 관리 기능을 구분하고 각 기능의 목적과 정보 구조를 정리했습니다.</div></div></div>
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">03</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">List / Detail / Tab IA Design</div><div class="timeline-desc">Tenant Management를 중심으로 List, Detail, General, Store, Design 탭 구조를 설계했습니다.</div></div></div>
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">04</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">SaaS Data Reference Research</div><div class="timeline-desc">SaaS 데이터 관리 솔루션을 리서치하며 Data Management 메뉴와 화면 흐름에 필요한 기준을 검토했습니다.</div></div></div>
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">05</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">Data Ingestion User Flow</div><div class="timeline-desc">Data Ingestion 흐름을 중심으로 Admin 사용자가 데이터를 이해하고 관리할 수 있는 유저 플로우를 작성했습니다.</div></div></div>
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">06</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">UX/UI Design Application</div><div class="timeline-desc">정리된 IA와 유저 플로우를 바탕으로 Tenant, Company, Data Management 화면 설계와 UI 디자인을 적용했습니다.</div></div></div>
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">07</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">Development Review</div><div class="timeline-desc">개발팀 요구사항을 확인하고 기획 범위를 조율하며, 리뷰 과정에서 변경사항을 반영했습니다.</div></div></div>
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">08</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">View / Edit QA</div><div class="timeline-desc">개발 완료된 Map View / Editor의 View/Edit 기능을 검수하고 구현 상태를 확인했습니다.</div></div></div>
+        </div>
+      </div>
+
+      <!-- 7. Key Work -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Key Work</h2>
+        <p class="detail-section-desc">Tenant Management, Data Management, Company Management, Map View / Editor 개발 검수까지 SaaS Admin 운영에 필요한 핵심 관리 기능을 화면 단위로 구체화했습니다.</p>
+        <div style="display:flex;flex-direction:column;gap:16px;" id="keywork-list-admin">
+          <div class="detail-card keywork-item">
+            <div class="keywork-header" onclick="toggleKeyworkAdmin(this)" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;padding:0;background:none;border:none;width:100%;text-align:left;">
+              <div>
+                <div class="detail-card-title" style="margin-bottom:4px;">Tenant Management 기획 및 디자인</div>
+                <div style="font-size:13px;color:var(--text-secondary);">SaaS Admin 테넌트 정보 관리 화면 설계</div>
+              </div>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;transition:transform .3s;color:var(--text-tertiary);"><path d="M5 8l5 5 5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="keywork-body" style="max-height:0;overflow:hidden;transition:max-height .3s ease;">
+              <div style="padding-top:16px;border-top:1px solid var(--border);margin-top:16px;">
+                <p style="font-size:14px;color:var(--text-secondary);line-height:1.75;margin-bottom:16px;">SaaS Admin 환경에서 테넌트 정보를 효율적으로 관리할 수 있도록 Tenant Management 기능을 기획하고 화면을 설계했습니다. List와 Detail 구조를 중심으로 정보 탐색 흐름을 정리하고, 사업자 인증, Store Import, Login 커스터마이징 등 실제 운영에 필요한 관리 기능을 탭 구조로 구성했습니다.</p>
+                <ul style="display:flex;flex-direction:column;gap:8px;">
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Tenant List 화면 기획 및 디자인</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Tenant Detail Page 세부 항목 기획</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>General 탭 내 사업자 인증 관련 화면 설계</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Store 탭 내 Import Stores 기능 설계</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Design 탭 내 Login 화면 커스터마이징 설계</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>개발 리뷰 대응 및 변경사항 반영</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail-card keywork-item">
+            <div class="keywork-header" onclick="toggleKeyworkAdmin(this)" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;padding:0;background:none;border:none;width:100%;text-align:left;">
+              <div>
+                <div class="detail-card-title" style="margin-bottom:4px;">Data Management 기획 및 UX/UI 설계</div>
+                <div style="font-size:13px;color:var(--text-secondary);">복잡한 데이터 관리 구조의 IA 및 화면 설계</div>
+              </div>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;transition:transform .3s;color:var(--text-tertiary);"><path d="M5 8l5 5 5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="keywork-body" style="max-height:0;overflow:hidden;transition:max-height .3s ease;">
+              <div style="padding-top:16px;border-top:1px solid var(--border);margin-top:16px;">
+                <p style="font-size:14px;color:var(--text-secondary);line-height:1.75;margin-bottom:16px;">복잡한 데이터 관리 구조를 Admin 사용자가 이해하기 쉽도록 Data Management 메뉴와 화면 흐름을 설계했습니다. SaaS 데이터 관리 솔루션을 리서치하고, 개발팀과 데이터 구조 방향성을 조율하여 Data Ingestion 중심의 유저 플로우와 IA를 구체화했습니다.</p>
+                <ul style="display:flex;flex-direction:column;gap:8px;">
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>SaaS 데이터 관리 솔루션 레퍼런스 리서치</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>STI / SSP 데이터 관리 구조 초안 요청 및 요구사항 확인</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Data Management 방향성 정리 회의 참여</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>메뉴 기능 관련 개발 요구사항 확인</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>변경된 IA 기반 메뉴 상세 설계</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Data Ingestion 유저 플로우 작성</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Data Management 화면 설계 및 디자인 적용</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail-card keywork-item">
+            <div class="keywork-header" onclick="toggleKeyworkAdmin(this)" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;padding:0;background:none;border:none;width:100%;text-align:left;">
+              <div>
+                <div class="detail-card-title" style="margin-bottom:4px;">Company Management 개선 및 변경사항 반영</div>
+                <div style="font-size:13px;color:var(--text-secondary);">기획 누락 점검 및 일관된 UI 패턴 반영</div>
+              </div>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;transition:transform .3s;color:var(--text-tertiary);"><path d="M5 8l5 5 5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="keywork-body" style="max-height:0;overflow:hidden;transition:max-height .3s ease;">
+              <div style="padding-top:16px;border-top:1px solid var(--border);margin-top:16px;">
+                <p style="font-size:14px;color:var(--text-secondary);line-height:1.75;margin-bottom:16px;">Company Management 화면의 기획 누락 및 변경사항을 점검하고, UI 컴포넌트 구조를 정리했습니다. 기존 화면의 관리 기능 흐름을 유지하면서 변경된 요구사항이 일관된 UI 패턴으로 반영되도록 개선했습니다.</p>
+                <ul style="display:flex;flex-direction:column;gap:8px;">
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>기획 누락 항목 확인</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>변경사항 디자인 반영</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>디자인 컴포넌트 변경 및 UI 정리</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Company Management 화면 구조 개선</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail-card keywork-item">
+            <div class="keywork-header" onclick="toggleKeyworkAdmin(this)" style="display:flex;align-items:center;justify-content:space-between;cursor:pointer;padding:0;background:none;border:none;width:100%;text-align:left;">
+              <div>
+                <div class="detail-card-title" style="margin-bottom:4px;">Seah Lab Map View / Editor 개발 대응</div>
+                <div style="font-size:13px;color:var(--text-secondary);">개발 완료 기능 검수 및 QA</div>
+              </div>
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" style="flex-shrink:0;transition:transform .3s;color:var(--text-tertiary);"><path d="M5 8l5 5 5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="keywork-body" style="max-height:0;overflow:hidden;transition:max-height .3s ease;">
+              <div style="padding-top:16px;border-top:1px solid var(--border);margin-top:16px;">
+                <p style="font-size:14px;color:var(--text-secondary);line-height:1.75;margin-bottom:16px;">개발 완료된 Map View / Editor 기능의 View/Edit 동작을 검수하며 디자인 산출물과 구현 결과 간의 차이를 확인했습니다. 최종 개발안 기준으로 기능 완성도를 점검하고, QA 관점에서 개발 대응을 진행했습니다.</p>
+                <ul style="display:flex;flex-direction:column;gap:8px;">
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Seah Lab Map View / Editor 개발 대응</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>최종 개발안 View 기능 검수</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Edit 기능 검수</li>
+                  <li style="display:flex;align-items:flex-start;gap:8px;font-size:14px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>개발 완료 상태 확인</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8. Before & After -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Before &amp; After</h2>
+        <div class="ba-grid">
+          <div class="ba-card ba-card-before">
+            <p class="ba-label">Before</p>
+            <ul class="ba-list">
+              <li class="ba-item"><span class="ba-icon">✕</span>Tenant, Company, Data 관리 기능의 IA가 명확히 정리되지 않음</li>
+              <li class="ba-item"><span class="ba-icon">✕</span>Tenant Detail 화면에서 정보를 어떤 탭으로 구분할지 기준이 필요함</li>
+              <li class="ba-item"><span class="ba-icon">✕</span>Data Management는 데이터 구조가 복잡해 사용자가 이해하기 어려울 수 있음</li>
+              <li class="ba-item"><span class="ba-icon">✕</span>Company Management 화면의 변경사항과 기획 누락 반영 필요</li>
+              <li class="ba-item"><span class="ba-icon">✕</span>개발 구현 결과와 디자인 산출물 간 검수 프로세스 필요</li>
+            </ul>
+          </div>
+          <div class="ba-card ba-card-after">
+            <p class="ba-label">After</p>
+            <ul class="ba-list">
+              <li class="ba-item"><span class="ba-icon">✓</span>Tenant, Company, Data 관리 기능의 IA와 화면 구조 구체화</li>
+              <li class="ba-item"><span class="ba-icon">✓</span>Tenant Detail을 General, Store, Design 등 탭 구조로 정리</li>
+              <li class="ba-item"><span class="ba-icon">✓</span>Data Ingestion 유저 플로우를 통해 데이터 관리 흐름 시각화</li>
+              <li class="ba-item"><span class="ba-icon">✓</span>Company Management 변경사항을 일관된 UI 패턴으로 반영</li>
+              <li class="ba-item"><span class="ba-icon">✓</span>View/Edit 기능 검수를 통해 디자인과 개발 구현 간 품질 차이 최소화</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9. Outcome -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Outcome</h2>
+        <p class="detail-section-desc">Tenant, Company, Data Management 기능의 화면 구조와 관리 흐름을 구체화하여 SaaS Admin의 운영 기능 기반을 정리했습니다. 또한 개발팀과의 검토 및 기능 검수를 통해 디자인 산출물이 실제 구현 단계까지 연결될 수 있도록 기여했습니다.</p>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
+          <div class="detail-card"><div class="detail-card-num" style="background:#EFF6FF;border-color:#BFDBFE;color:#2563EB;">01</div><div class="detail-card-title">Admin IA Structured</div><div class="detail-card-desc">Tenant, Company, Data 관리 기능의 메뉴 구조와 화면 흐름을 정리하여 Admin 운영 기능의 기반을 구체화했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num" style="background:#EFF6FF;border-color:#BFDBFE;color:#2563EB;">02</div><div class="detail-card-title">Tenant Management Designed</div><div class="detail-card-desc">List / Detail / General / Store / Design 기준으로 Tenant Management 화면과 탭 구조를 설계했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num" style="background:#EFF6FF;border-color:#BFDBFE;color:#2563EB;">03</div><div class="detail-card-title">Data Flow Clarified</div><div class="detail-card-desc">Data Ingestion 유저 플로우와 Data Management 화면 설계를 통해 복잡한 데이터 관리 개념을 화면 단위로 정리했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num" style="background:#EFF6FF;border-color:#BFDBFE;color:#2563EB;">04</div><div class="detail-card-title">UI Consistency Improved</div><div class="detail-card-desc">Company Management 변경사항과 컴포넌트 구조를 정리하여 Admin 제품군 내 UI 일관성을 강화했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num" style="background:#EFF6FF;border-color:#BFDBFE;color:#2563EB;">05</div><div class="detail-card-title">Dev Quality Checked</div><div class="detail-card-desc">View/Edit 기능 검수를 통해 디자인 산출물과 개발 구현 결과 간 품질 차이를 최소화했습니다.</div></div>
+        </div>
+      </div>
+
+      <!-- 10. Impact in Numbers -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Impact in Numbers</h2>
+        <p class="detail-section-desc">약 6주 동안 SaaS Admin 관리 기능의 IA, 화면 설계, 데이터 관리 플로우, 개발 검수까지 운영 기능 전반의 UX/UI 기반을 정리했습니다.</p>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:32px;">
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:28px;font-weight:800;color:var(--text-primary);letter-spacing:-0.03em;">약 6주</div>
+            <div style="font-size:12px;color:var(--text-secondary);margin-top:4px;font-weight:500;">진행 기간</div>
+          </div>
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:28px;font-weight:800;color:var(--text-primary);letter-spacing:-0.03em;">4</div>
+            <div style="font-size:12px;color:var(--text-secondary);margin-top:4px;font-weight:500;">주요 프로젝트 영역</div>
+          </div>
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:28px;font-weight:800;color:var(--text-primary);letter-spacing:-0.03em;">3</div>
+            <div style="font-size:12px;color:var(--text-secondary);margin-top:4px;font-weight:500;">기획/디자인한 Admin 관리 기능</div>
+          </div>
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:28px;font-weight:800;color:var(--text-primary);letter-spacing:-0.03em;">1</div>
+            <div style="font-size:12px;color:var(--text-secondary);margin-top:4px;font-weight:500;">개발 검수 대응 기능</div>
+          </div>
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:28px;font-weight:800;color:var(--text-primary);letter-spacing:-0.03em;">5</div>
+            <div style="font-size:12px;color:var(--text-secondary);margin-top:4px;font-weight:500;">Tenant Management 설계 영역</div>
+          </div>
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:28px;font-weight:800;color:var(--text-primary);letter-spacing:-0.03em;">5</div>
+            <div style="font-size:12px;color:var(--text-secondary);margin-top:4px;font-weight:500;">Data Management 설계 단계</div>
+          </div>
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:28px;font-weight:800;color:var(--text-primary);letter-spacing:-0.03em;">3</div>
+            <div style="font-size:12px;color:var(--text-secondary);margin-top:4px;font-weight:500;">Company Management 개선 항목</div>
+          </div>
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:28px;font-weight:800;color:var(--text-primary);letter-spacing:-0.03em;">1</div>
+            <div style="font-size:12px;color:var(--text-secondary);margin-top:4px;font-weight:500;">View/Edit 검수 완료 기능</div>
+          </div>
+        </div>
+        <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:24px 28px;">
+          <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px;">
+            <div style="font-size:13px;color:var(--text-secondary);line-height:1.7;"><span style="color:var(--text-primary);font-weight:600;">작업 기록 범위</span><br>1주차 ~ 10주차 내 주요 기능 진행</div>
+            <div style="font-size:13px;color:var(--text-secondary);line-height:1.7;"><span style="color:var(--text-primary);font-weight:600;">주요 프로젝트 영역</span><br>Tenant Management, Data Management, Company Management, Map View / Editor</div>
+            <div style="font-size:13px;color:var(--text-secondary);line-height:1.7;"><span style="color:var(--text-primary);font-weight:600;">기획/디자인한 관리 기능</span><br>Tenant Management, Company Management, Data Management</div>
+            <div style="font-size:13px;color:var(--text-secondary);line-height:1.7;"><span style="color:var(--text-primary);font-weight:600;">Tenant Management 설계</span><br>List / Detail / General / Store / Design 기준 5개 영역</div>
+            <div style="font-size:13px;color:var(--text-secondary);line-height:1.7;"><span style="color:var(--text-primary);font-weight:600;">Data Management 설계 범위</span><br>리서치, IA, 메뉴 상세, User Flow, 화면 디자인 5단계</div>
+            <div style="font-size:13px;color:var(--text-secondary);line-height:1.7;"><span style="color:var(--text-primary);font-weight:600;">협업 대상</span><br>기획, HQ Dev, 개발 담당자</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 11. Key Takeaway -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Key Takeaway</h2>
+        <div class="takeaway-box">
+          <p class="takeaway-text">이 프로젝트를 통해 SaaS Admin UX는 단순한 관리 화면 설계가 아니라, 조직·테넌트·데이터 구조를 사용자가 이해하고 운영할 수 있도록 정보 구조를 정리하는 일이라는 점을 경험했습니다. 특히 복잡한 데이터 관리 개념을 IA, 유저 플로우, 화면 단위로 구체화하고, 개발 검수까지 연결하며 Admin 제품 설계의 완성도를 높이는 과정을 수행했습니다.</p>
+          <div class="badge-group">
+            <span class="badge">SaaS Admin UX</span>
+            <span class="badge">Management IA</span>
+            <span class="badge">Tenant Management</span>
+            <span class="badge">Data Management</span>
+            <span class="badge">User Flow</span>
+            <span class="badge">View/Edit QA</span>
+            <span class="badge">Development Collaboration</span>
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;">
+            <button onclick="closeDetailAdmin()" class="btn btn-primary">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 3L5 8l5 5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Back to Portfolio
+            </button>
+            <a href="#contact" onclick="closeDetailAdmin();setTimeout(()=>{document.getElementById('contact').scrollIntoView({behavior:'smooth'})},100);return false;" class="btn btn-ghost">Contact Me</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <a class="footer-logo" href="#" onclick="closeDetailAdmin();return false;">YERIN<span>.K</span></a>
+        <p class="footer-copy">© 2025 Yerin Kim. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  </div><!-- /#detail-page-admin -->
+
+
   <!-- ===== JAVASCRIPT ===== -->
   <script>
+
+    // --- Page Switch: Admin Management Detail ---
+    function openDetailAdmin() {
+      document.getElementById('main-page').style.display = 'none';
+      const p = document.getElementById('detail-page-admin');
+      p.style.display = 'block';
+      window.scrollTo({ top: 0, behavior: 'instant' });
+      p.querySelectorAll('.fade-in:not(.visible)').forEach(el => observer.observe(el));
+    }
+    function closeDetailAdmin() {
+      document.getElementById('detail-page-admin').style.display = 'none';
+      document.getElementById('main-page').style.display = 'block';
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }
+    // --- Key Work Accordion (Admin) ---
+    function toggleKeyworkAdmin(header) {
+      const card = header.closest('.keywork-item');
+      const body = card.querySelector('.keywork-body');
+      const icon = header.querySelector('svg');
+      const isOpen = body.style.maxHeight && body.style.maxHeight !== '0px';
+      card.parentElement.querySelectorAll('.keywork-item').forEach(c => {
+        c.querySelector('.keywork-body').style.maxHeight = '0px';
+        c.querySelector('svg').style.transform = 'rotate(0deg)';
+      });
+      if (!isOpen) {
+        body.style.maxHeight = body.scrollHeight + 200 + 'px';
+        icon.style.transform = 'rotate(180deg)';
+      }
+    }
 
     // --- Page Switch: SSP POC Detail ---
     function openDetailSSP() {
