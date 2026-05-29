@@ -211,6 +211,21 @@ ol, ul { list-style: none; }
   font-weight: 600;
   letter-spacing: -0.02em;
 }
+.card-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+.card-label {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--c-secondary);
+  background: var(--c-surface);
+  border-radius: 100px;
+  padding: 3px 10px;
+}
 
 /* corner arrow icon */
 .card-corner-icon {
