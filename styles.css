@@ -724,6 +724,18 @@ ol, ul { list-style: none; }
   line-height: 1.5;
   letter-spacing: -0.02em;
 }
+.mission-desc {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.mission-desc p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--c-secondary);
+  line-height: 1.8;
+}
 
 /* ── APP SCREENSHOT ──────────────────────────── */
 .app-screenshot {
