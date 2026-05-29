@@ -986,7 +986,7 @@ ol, ul { list-style: none; }
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: var(--text-sm);
+  font-size: 20px;
   color: var(--c-secondary);
   margin-bottom: var(--sp-10);
   transition: color .2s;
