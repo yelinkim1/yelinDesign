@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SSP POC — YELIN KIM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── HEADER ──────────────────────────────── -->
+  <header class="header">
+    <a href="index.html" class="logo">YELIN KIM</a>
+    <nav class="nav">
+      <a href="about.html"  class="nav-link">About</a>
+      <a href="index.html"  class="nav-link active">Portfolio</a>
+      <a href="index.html#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main class="detail-main">
+
+    <!-- ── HERO ─────────────────────────────── -->
+    <section class="dp-hero">
+      <a href="index.html" class="dp-back">← Back to Portfolio</a>
+      <p class="dp-eyebrow">2025 · SaaS Admin · POC UX · External Solution Integration</p>
+      <h1 class="dp-title">SSP 기반 외부 솔루션 연동 POC<br>및 Admin UX/UI 설계</h1>
+      <p class="dp-summary">Space Vision, Trace it, Seerslab 등 외부 솔루션과 SSP의 연동 가능성을 검토하고, 데모·전시·개발 협업을 위한 Dashboard / Map View POC 화면과 Admin 관리 기능을 기획·디자인한 프로젝트입니다.</p>
+
+      <div class="dp-meta-grid">
+        <div class="dp-meta-item">
+          <span class="dp-meta-label">Role</span>
+          <span class="dp-meta-value">Product Designer<br>POC UX Designer</span>
+        </div>
+        <div class="dp-meta-item">
+          <span class="dp-meta-label">Scope</span>
+          <span class="dp-meta-value">POC UX Design<br>Admin UX/UI<br>Demo Scenario<br>Dev Collaboration</span>
+        </div>
+        <div class="dp-meta-item">
+          <span class="dp-meta-label">Project Type</span>
+          <span class="dp-meta-value">External Solution Integration<br>Dashboard POC<br>Map View POC</span>
+        </div>
+        <div class="dp-meta-item">
+          <span class="dp-meta-label">Year</span>
+          <span class="dp-meta-value">2025</span>
+        </div>
+      </div>
+
+      <div class="dp-highlight-grid">
+        <div class="dp-highlight">
+          <span class="dp-highlight-num">4+</span>
+          <span class="dp-highlight-lbl">주요 협업 프로젝트</span>
+        </div>
+        <div class="dp-highlight">
+          <span class="dp-highlight-num">2</span>
+          <span class="dp-highlight-lbl">POC 제작 참여</span>
+        </div>
+        <div class="dp-highlight">
+          <span class="dp-highlight-num">3</span>
+          <span class="dp-highlight-lbl">전시 데모 컨셉</span>
+        </div>
+        <div class="dp-highlight">
+          <span class="dp-highlight-num">1</span>
+          <span class="dp-highlight-lbl">Tenant Management 설계</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── BACKGROUND ───────────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Background</span>
+        </div>
+        <div class="dp-section-body">
+          <p class="dp-body-text">SSP는 내부 Admin 플랫폼을 넘어 외부 솔루션과 연동 가능한 서비스 플랫폼으로 확장 가능성을 검토하고 있었습니다. 이를 위해 Space Vision, Trace it, Seerslab 등 다양한 외부 솔루션과의 연동 논의가 진행되었고, 사업 검토와 개발 협업을 위한 POC 화면이 필요했습니다.</p>
+          <p class="dp-body-text">외부 솔루션의 기능을 SSP 안에서 어떻게 연결하고, Admin 사용자가 어떤 정보를 확인하고 관리할 수 있을지 화면 기준으로 구체화하는 과정이 필요했습니다.</p>
+          <div class="dp-card-grid">
+            <div class="dp-card">
+              <p class="dp-card-title">Space Vision</p>
+              <p class="dp-card-desc">공간 데이터 기반 솔루션. SSP와의 연동 논의 및 POC 방향 검토.</p>
+            </div>
+            <div class="dp-card">
+              <p class="dp-card-title">Trace it</p>
+              <p class="dp-card-desc">추적 기반 솔루션. SSP 도입 논의 및 개발 미팅 참여.</p>
+            </div>
+            <div class="dp-card">
+              <p class="dp-card-title">Seerslab</p>
+              <p class="dp-card-desc">Unity 기반 Map View 개발 협력사. 기능 구현 방향 대응.</p>
+            </div>
+            <div class="dp-card">
+              <p class="dp-card-title">SSP Platform</p>
+              <p class="dp-card-desc">외부 솔루션 연동의 기반이 되는 내부 Admin 플랫폼.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROBLEM ──────────────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Problem</span>
+        </div>
+        <div class="dp-section-body">
+          <p class="dp-body-text">외부 솔루션 연동 논의는 진행되고 있었지만, 실제 서비스 플랫폼 안에서 어떤 화면과 기능으로 연결될지에 대한 기준은 아직 구체화되지 않은 상태였습니다.</p>
+          <div class="dp-card-grid">
+            <div class="dp-card">
+              <span class="dp-card-num">01</span>
+              <p class="dp-card-title">연동 화면 기준 부족</p>
+              <p class="dp-card-desc">외부 솔루션을 SSP에 어떻게 연결하고 Admin에서 어떻게 보여줄지 화면 기준이 필요했습니다.</p>
+            </div>
+            <div class="dp-card">
+              <span class="dp-card-num">02</span>
+              <p class="dp-card-title">데이터 확인 범위 정의 필요</p>
+              <p class="dp-card-desc">솔루션 연동 후 Dashboard에서 어떤 데이터를 확인하고 관리해야 하는지 정리가 필요했습니다.</p>
+            </div>
+            <div class="dp-card">
+              <span class="dp-card-num">03</span>
+              <p class="dp-card-title">공간 기반 관리 경험 필요</p>
+              <p class="dp-card-desc">Map View를 통해 매장, 오브젝트, 공간 정보를 직관적으로 확인할 수 있는 구조가 필요했습니다.</p>
+            </div>
+            <div class="dp-card">
+              <span class="dp-card-num">04</span>
+              <p class="dp-card-title">데모 시나리오 부족</p>
+              <p class="dp-card-desc">전시 환경에서 기능 가치를 쉽게 전달할 수 있는 사용 흐름과 시연 시나리오가 필요했습니다.</p>
+            </div>
+            <div class="dp-card">
+              <span class="dp-card-num">05</span>
+              <p class="dp-card-title">협업 방향 정렬 필요</p>
+              <p class="dp-card-desc">외부 협력사, 내부 개발팀, 영상 제작사 간 구현 범위와 화면 방향을 맞추는 과정이 필요했습니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── GOAL ─────────────────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Goal</span>
+        </div>
+        <div class="dp-section-body">
+          <p class="dp-body-text">외부 솔루션과 SSP의 연동 구조를 화면으로 구체화하고, Dashboard / Map View POC를 통해 데이터 확인 및 공간 기반 관리 경험을 시각화하는 것을 목표로 했습니다.</p>
+          <div class="dp-card-grid">
+            <div class="dp-card">
+              <span class="dp-card-num">01</span>
+              <p class="dp-card-title">Visualize Integration Flow</p>
+              <p class="dp-card-desc">외부 솔루션이 SSP 안에서 어떤 기능과 화면으로 연결될 수 있는지 구체화합니다.</p>
+            </div>
+            <div class="dp-card">
+              <span class="dp-card-num">02</span>
+              <p class="dp-card-title">Design POC Experience</p>
+              <p class="dp-card-desc">Dashboard와 Map View를 통해 데이터 확인, 공간 정보 탐색, 오브젝트 관리 흐름을 시각화합니다.</p>
+            </div>
+            <div class="dp-card">
+              <span class="dp-card-num">03</span>
+              <p class="dp-card-title">Support Business Discussion</p>
+              <p class="dp-card-desc">신규 사업 검토와 외부 협업 논의에 활용할 수 있는 화면 산출물과 데모 시나리오를 마련합니다.</p>
+            </div>
+            <div class="dp-card">
+              <span class="dp-card-num">04</span>
+              <p class="dp-card-title">Align with Development</p>
+              <p class="dp-card-desc">Unity 개발, View/Edit 기능 검토, Admin 기능 설계를 통해 실제 구현 방향과 디자인 방향을 정렬합니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── MY ROLE ──────────────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">My Role</span>
+        </div>
+        <div class="dp-section-body">
+          <p class="dp-body-text">Product Designer이자 POC UX Designer로서 외부 솔루션 연동 논의부터 Dashboard / Map View POC 화면 설계, Unity 개발 대응, 전시 데모 시나리오 기획, Tenant Management Admin 설계까지 프로젝트 전반의 UX/UI 구체화를 담당했습니다.</p>
+          <ul class="dp-role-list">
+            <li><strong>POC UX Planning</strong> — 외부 솔루션 연동 가능성을 검토하고, SSP 내에서 필요한 화면과 기능 흐름을 정리했습니다.</li>
+            <li><strong>Dashboard POC</strong> — 연동 데이터를 Admin에서 빠르게 확인할 수 있도록 Dashboard POC 화면 구조 검토에 참여했습니다.</li>
+            <li><strong>Map View POC Design</strong> — 공간 기반 정보를 확인하고 관리할 수 있는 Map View 화면과 View/Edit 기능 구조를 디자인했습니다.</li>
+            <li><strong>Development Collaboration</strong> — Unity 기반 개발 대응, 기능 범위 확인, 개발 결과물 검토를 통해 디자인과 구현 방향을 맞췄습니다.</li>
+            <li><strong>Demo Scenario Planning</strong> — Picking, RFID, Load-cell 등 전시 데모 컨셉을 기반으로 사용 흐름과 시연 시나리오를 정리했습니다.</li>
+            <li><strong>Tenant Management UX/UI</strong> — SSP Admin 내 Tenant Management 기능의 List / Detail 화면 구조를 기획하고 디자인했습니다.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROCESS ──────────────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Process</span>
+        </div>
+        <div class="dp-section-body">
+          <p class="dp-body-text">외부 솔루션 도입 논의에서 시작해 SSP 연동 가능 기능을 검토하고, Dashboard / Map View POC 화면과 전시 데모 시나리오, Admin 관리 기능까지 단계적으로 구체화했습니다.</p>
+          <div class="dp-process-list">
+            <div class="dp-process-item">
+              <span class="dp-process-num">01</span>
+              <div>
+                <p class="dp-process-title">External Solution Discussion</p>
+                <p class="dp-process-desc">Space Vision, Trace it, Seerslab 등 외부 솔루션의 SSP 도입 논의에 참여하고 연동 방향을 검토했습니다.</p>
+              </div>
+            </div>
+            <div class="dp-process-item">
+              <span class="dp-process-num">02</span>
+              <div>
+                <p class="dp-process-title">Integration Scope Review</p>
+                <p class="dp-process-desc">외부 솔루션이 SSP 내에서 어떤 기능으로 연결될 수 있는지 기능 범위와 데이터 흐름을 확인했습니다.</p>
+              </div>
+            </div>
+            <div class="dp-process-item">
+              <span class="dp-process-num">03</span>
+              <div>
+                <p class="dp-process-title">Dashboard POC Structure</p>
+                <p class="dp-process-desc">캠페인, 매장, POS Data 등 연동 가능한 데이터를 Admin 화면에서 어떻게 확인할지 Dashboard POC 구조를 검토했습니다.</p>
+              </div>
+            </div>
+            <div class="dp-process-item">
+              <span class="dp-process-num">04</span>
+              <div>
+                <p class="dp-process-title">Map View POC Design</p>
+                <p class="dp-process-desc">공간, 매장, 오브젝트 정보를 기반으로 Map View 화면 구조와 정보 위계를 설계했습니다.</p>
+              </div>
+            </div>
+            <div class="dp-process-item">
+              <span class="dp-process-num">05</span>
+              <div>
+                <p class="dp-process-title">View / Edit Function Review</p>
+                <p class="dp-process-desc">Map 기반 View / Editor 기능 구현 방향을 검토하고 Unity 개발 대응을 진행했습니다.</p>
+              </div>
+            </div>
+            <div class="dp-process-item">
+              <span class="dp-process-num">06</span>
+              <div>
+                <p class="dp-process-title">Demo Scenario Planning</p>
+                <p class="dp-process-desc">Picking, RFID, Load-cell 컨셉을 기반으로 전시 데모 시나리오와 화면 흐름을 정리했습니다.</p>
+              </div>
+            </div>
+            <div class="dp-process-item">
+              <span class="dp-process-num">07</span>
+              <div>
+                <p class="dp-process-title">Tenant Management Design</p>
+                <p class="dp-process-desc">SSP Admin에서 Tenant 정보를 관리할 수 있도록 List / Detail 중심의 관리 화면을 기획하고 디자인했습니다.</p>
+              </div>
+            </div>
+            <div class="dp-process-item">
+              <span class="dp-process-num">08</span>
+              <div>
+                <p class="dp-process-title">Feedback &amp; Alignment</p>
+                <p class="dp-process-desc">외부 협력사, 개발팀, 영상 제작사, STI 개발 담당자와 피드백을 주고받으며 구현 방향을 조율했습니다.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── KEY WORK ──────────────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Key Work</span>
+        </div>
+        <div class="dp-section-body">
+          <p class="dp-body-text">POC 화면 설계뿐 아니라 외부 솔루션 연동 검토, Unity 개발 대응, 전시 데모 시나리오, Admin 관리 기능 설계까지 SSP 확장 가능성을 검토하기 위한 여러 산출물을 함께 정리했습니다.</p>
+
+          <div class="dp-accordion">
+            <button class="dp-accordion-trigger">
+              <span class="dp-accordion-title">1. Space Vision / Trace it 연동 검토</span>
+              <span class="dp-accordion-icon">↓</span>
+            </button>
+            <div class="dp-accordion-body">
+              <p class="dp-blockquote">Space Vision, Trace it 등 외부 솔루션의 SSP 도입 논의에 참여하여 서비스 연동 방향과 기능 흐름을 검토했습니다. 외부 솔루션이 SSP 내에서 어떻게 관리되고 확장될 수 있는지 확인하며, POC 화면 제작과 Admin 기능 설계를 위한 기반을 정리했습니다.</p>
+              <ul class="dp-task-list">
+                <li>Space Vision SSP 도입 논의 플로우업</li>
+                <li>Trace it ↔ SSP 도입 논의 플로우업</li>
+                <li>Trace it ↔ SSP 도입 관련 개발 미팅 참여</li>
+                <li>Space Vision 캠페인 ↔ POS Data 연동 후속 논의 검토</li>
+                <li>외부 솔루션과 SSP 간 기능 연결 흐름 검토</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="dp-accordion">
+            <button class="dp-accordion-trigger">
+              <span class="dp-accordion-title">2. Seerslab 협업 및 Unity 개발 대응</span>
+              <span class="dp-accordion-icon">↓</span>
+            </button>
+            <div class="dp-accordion-body">
+              <p class="dp-blockquote">Unity 기반 Map View 개발 대응과 기능 검토를 진행했습니다. 외부 협력사와 내부 개발팀 사이에서 화면 구현 방향과 기능 범위를 확인하고, 디자인 산출물이 실제 개발 결과물로 연결될 수 있도록 커뮤니케이션을 지원했습니다.</p>
+              <ul class="dp-task-list">
+                <li>Unity 개발 대응</li>
+                <li>개발 일정 및 기능 범위 확인</li>
+                <li>View / Editor 기능 구현 방향 검토</li>
+                <li>개발 결과물 확인 및 커뮤니케이션 대응</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="dp-accordion">
+            <button class="dp-accordion-trigger">
+              <span class="dp-accordion-title">3. Dashboard POC 제작 참여</span>
+              <span class="dp-accordion-icon">↓</span>
+            </button>
+            <div class="dp-accordion-body">
+              <p class="dp-blockquote">SSP 연동 서비스의 핵심 데이터를 빠르게 확인할 수 있도록 Dashboard POC 제작에 참여했습니다. 캠페인, 매장, POS Data 등 연동 가능한 데이터를 Admin 화면에서 어떻게 시각화하고 탐색할지 검토하며 데이터 기반 관리 화면의 초기 방향성을 구체화했습니다.</p>
+              <ul class="dp-task-list">
+                <li>Dashboard POC 제작 참여</li>
+                <li>데이터 확인 목적의 화면 구조 검토</li>
+                <li>캠페인, 매장, POS Data 등 연동 데이터 표현 방식 검토</li>
+                <li>Admin 사용자가 주요 데이터를 빠르게 파악할 수 있는 구조 설계 지원</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="dp-accordion">
+            <button class="dp-accordion-trigger">
+              <span class="dp-accordion-title">4. Map View POC 디자인</span>
+              <span class="dp-accordion-icon">↓</span>
+            </button>
+            <div class="dp-accordion-body">
+              <p class="dp-blockquote">공간 기반 정보를 직관적으로 확인할 수 있는 Map View POC를 디자인했습니다. View/Edit 기능 구조를 기준으로 맵 영역, 정보 패널, 오브젝트 관리 흐름을 설계하고, 향후 Editor 기능으로 확장 가능한 UI 구조를 검토했습니다.</p>
+              <ul class="dp-task-list">
+                <li>Map View POC 디자인</li>
+                <li>공간 / 매장 / 오브젝트 기반 정보 표시 방식 검토</li>
+                <li>View / Edit 기능 기준 화면 설계</li>
+                <li>Map 기반 관리 화면의 정보 위계 정리</li>
+                <li>향후 Editor 기능 개발 대응을 위한 UI 구조 검토</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="dp-accordion">
+            <button class="dp-accordion-trigger">
+              <span class="dp-accordion-title">5. 전시 데모 시나리오 기획 참여</span>
+              <span class="dp-accordion-icon">↓</span>
+            </button>
+            <div class="dp-accordion-body">
+              <p class="dp-blockquote">전시 환경에서 SSP 연동 기능을 효과적으로 보여줄 수 있도록 데모 시나리오 기획에 참여했습니다. Picking, RFID, Load-cell 등 주요 컨셉을 기반으로 사용 흐름을 정리하고, 외주 개발사 및 영상 제작 대응을 통해 데모 완성도를 높이는 데 기여했습니다.</p>
+              <ul class="dp-task-list">
+                <li>전시 데모별 시나리오 기획 참여</li>
+                <li>Picking, RFID, Load-cell 컨셉 시나리오 정리</li>
+                <li>외주사 개발 및 영상 제작 대응</li>
+                <li>STI 개발 대응</li>
+                <li>데모 흐름에 맞춘 화면 / 기능 연결 구조 검토</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── BEFORE & AFTER ───────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Before &amp; After</span>
+        </div>
+        <div class="dp-section-body">
+          <div class="dp-ba-grid">
+            <div class="dp-ba-card dp-ba-card--before">
+              <span class="dp-ba-label">Before</span>
+              <ul class="dp-ba-list">
+                <li>외부 솔루션을 SSP 안에서 어떻게 연결할지 화면 기준이 부족함</li>
+                <li>데이터 연동 후 Admin에서 확인해야 할 정보 범위가 명확하지 않음</li>
+                <li>Map View / Dashboard 등 사업 검토용 POC 화면 필요</li>
+                <li>전시 데모에서 기능 가치를 전달할 시나리오 필요</li>
+                <li>외부 협력사와 내부 개발팀 간 구현 방향 정렬 필요</li>
+              </ul>
+            </div>
+            <div class="dp-ba-card dp-ba-card--after">
+              <span class="dp-ba-label">After</span>
+              <ul class="dp-ba-list">
+                <li>외부 솔루션과 SSP의 연동 가능성을 화면 흐름으로 구체화</li>
+                <li>Dashboard POC를 통해 연동 데이터 확인 구조 검토</li>
+                <li>Map View POC를 통해 공간 기반 관리 경험 시각화</li>
+                <li>Picking, RFID, Load-cell 기반 전시 데모 시나리오 정리</li>
+                <li>Unity 개발 대응 및 View/Edit 기능 검토로 구현 방향 정렬</li>
+                <li>Tenant Management 설계를 통해 Admin 확장 기반 마련</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── OUTCOME ──────────────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Outcome</span>
+        </div>
+        <div class="dp-section-body">
+          <p class="dp-body-text">SSP와 외부 솔루션 간 연동 가능성을 화면과 시나리오로 구체화했습니다. Dashboard POC, Map View POC, 전시 데모 시나리오를 통해 신규 사업 논의와 개발 협업이 가능한 초기 산출물을 마련했으며, Admin 관리 기능인 Tenant Management 설계까지 연결해 SSP의 확장 기반을 강화했습니다.</p>
+          <ul class="dp-outcome-list">
+            <li><strong>External Integration Visualized</strong> — Space Vision, Trace it, Seerslab 등 외부 솔루션과 SSP의 연동 가능성을 화면 흐름으로 구체화했습니다.</li>
+            <li><strong>POC Screens Delivered</strong> — Dashboard POC와 Map View POC를 통해 데이터 확인 및 공간 기반 관리 경험을 시각화했습니다.</li>
+            <li><strong>Demo Scenario Structured</strong> — Picking, RFID, Load-cell 기반 전시 데모 시나리오를 정리하여 제품 시연 흐름을 구체화했습니다.</li>
+            <li><strong>Admin Expansion Supported</strong> — Tenant Management의 List / Detail 화면을 설계하여 SSP Admin 관리 기능 확장 기반을 마련했습니다.</li>
+            <li><strong>Development Alignment Improved</strong> — Unity 개발 대응과 View/Edit 기능 검토를 통해 디자인 산출물과 개발 구현 방향을 정렬했습니다.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── IMPACT IN NUMBERS ─────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Impact</span>
+        </div>
+        <div class="dp-section-body">
+          <p class="dp-body-text">2025년 SSP 확장 가능성 검토 과정에서 외부 솔루션 연동, POC 화면, 전시 데모, Admin 기능 설계까지 다양한 협업 산출물을 정리했습니다.</p>
+          <div class="dp-metrics-grid">
+            <div class="dp-metric">
+              <span class="dp-metric-num">2025</span>
+              <span class="dp-metric-lbl">진행 연도</span>
+            </div>
+            <div class="dp-metric">
+              <span class="dp-metric-num">4+</span>
+              <span class="dp-metric-lbl">주요 협업 프로젝트</span>
+            </div>
+            <div class="dp-metric">
+              <span class="dp-metric-num">3</span>
+              <span class="dp-metric-lbl">외부 솔루션 연동 논의</span>
+            </div>
+            <div class="dp-metric">
+              <span class="dp-metric-num">2</span>
+              <span class="dp-metric-lbl">POC 제작 참여</span>
+            </div>
+            <div class="dp-metric">
+              <span class="dp-metric-num">2</span>
+              <span class="dp-metric-lbl">설계한 POC 유형</span>
+            </div>
+            <div class="dp-metric">
+              <span class="dp-metric-num">3</span>
+              <span class="dp-metric-lbl">전시 데모 컨셉</span>
+            </div>
+            <div class="dp-metric">
+              <span class="dp-metric-num">1</span>
+              <span class="dp-metric-lbl">Admin 기획 / 디자인 기능</span>
+            </div>
+            <div class="dp-metric">
+              <span class="dp-metric-num">2</span>
+              <span class="dp-metric-lbl">Tenant Management 주요 화면</span>
+            </div>
+          </div>
+
+          <table class="dp-table">
+            <tbody>
+              <tr><td class="dp-table-label">진행 연도</td><td class="dp-table-value">2025</td></tr>
+              <tr><td class="dp-table-label">주요 협업 프로젝트</td><td class="dp-table-value">Space Vision, Trace it, Seerslab, STI 관련 협업</td></tr>
+              <tr><td class="dp-table-label">외부 솔루션 연동 논의</td><td class="dp-table-value">Space Vision, Trace it, Seerslab</td></tr>
+              <tr><td class="dp-table-label">POC 제작 참여</td><td class="dp-table-value">Dashboard POC, Map View POC</td></tr>
+              <tr><td class="dp-table-label">개발 대응 영역</td><td class="dp-table-value">Unity 개발, View / Edit 기능 검토</td></tr>
+              <tr><td class="dp-table-label">Admin 기획 / 디자인 기능</td><td class="dp-table-value">Tenant Management</td></tr>
+              <tr><td class="dp-table-label">Tenant Management 설계 범위</td><td class="dp-table-value">List / Detail 2개 주요 화면</td></tr>
+              <tr><td class="dp-table-label">전시 데모 컨셉</td><td class="dp-table-value">Picking, RFID, Load-cell</td></tr>
+              <tr><td class="dp-table-label">협업 대상</td><td class="dp-table-value">외부 협력사, 개발팀, 영상 제작사, STI 개발 담당</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── KEY TAKEAWAY ──────────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Key Takeaway</span>
+        </div>
+        <div class="dp-section-body">
+          <p class="dp-body-text">이 프로젝트를 통해 POC 디자인은 단순히 화면을 빠르게 제작하는 것이 아니라, 사업 가능성, 데이터 흐름, 개발 구현, 데모 시나리오를 하나의 경험으로 연결하는 과정이라는 점을 배웠습니다. 외부 솔루션과 내부 플랫폼 사이의 접점을 화면으로 구체화하며, Product Designer가 초기 사업 검토와 개발 협업 과정에서 어떤 방식으로 기여할 수 있는지 경험했습니다.</p>
+          <div class="dp-tags">
+            <span class="dp-tag">POC UX Design</span>
+            <span class="dp-tag">External Solution Integration</span>
+            <span class="dp-tag">SaaS Admin UX</span>
+            <span class="dp-tag">Map View UX</span>
+            <span class="dp-tag">Dashboard Design</span>
+            <span class="dp-tag">Demo Scenario</span>
+            <span class="dp-tag">Development Collaboration</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA ──────────────────────────────── -->
+    <section class="dp-cta">
+      <a href="index.html" class="pill-btn">← Back to Portfolio</a>
+      <a href="index.html#contact" class="pill-btn pill-btn--accent">Contact Me ↗</a>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────── -->
+  <footer class="footer" id="contact">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <p class="footer-eyebrow">Contact</p>
+        <h2 class="footer-headline">Let's start<br>creating<br>together</h2>
+        <a href="mailto:hello@yelinkim.com" class="pill-btn pill-btn--light" style="align-self:flex-start;">Let's talk <span class="arrow">↗</span></a>
+      </div>
+      <nav class="footer-nav">
+        <div class="footer-nav-col">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="index.html">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-nav-col">
+          <a href="#" target="_blank">LinkedIn <span class="arrow">↗</span></a>
+          <a href="#" target="_blank">Behance <span class="arrow">↗</span></a>
+        </div>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script>
+    document.querySelectorAll('.dp-accordion-trigger').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.dp-accordion');
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.dp-accordion.open').forEach(el => el.classList.remove('open'));
+        if (!isOpen) item.classList.add('open');
+      });
+    });
+  </script>
+</body>
+</html>

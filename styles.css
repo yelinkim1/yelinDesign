@@ -1297,6 +1297,106 @@ ol, ul { list-style: none; }
   line-height: 1.7;
 }
 
+/* ── Before & After ── */
+.dp-ba-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.dp-ba-card {
+  border-radius: var(--r-md);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.dp-ba-card--before {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+}
+.dp-ba-card--after {
+  background: #f0f0ff;
+  border: 1px solid #d4d0f8;
+}
+.dp-ba-label {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--c-secondary);
+}
+.dp-ba-card--after .dp-ba-label {
+  color: var(--c-accent);
+}
+.dp-ba-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.dp-ba-list li {
+  font-size: var(--text-sm);
+  color: var(--c-secondary);
+  line-height: 1.7;
+  padding-left: 16px;
+  position: relative;
+}
+.dp-ba-list li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: var(--c-tertiary);
+  font-weight: 700;
+}
+.dp-ba-card--after .dp-ba-list li {
+  color: var(--c-fg);
+}
+.dp-ba-card--after .dp-ba-list li::before {
+  color: var(--c-accent);
+  content: '✓';
+  font-size: 11px;
+  top: 2px;
+}
+
+/* ── Tags ── */
+.dp-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: var(--sp-6);
+}
+.dp-tag {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 100px;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  color: var(--c-secondary);
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  letter-spacing: 0.01em;
+}
+
+/* ── Detail page CTA ── */
+.dp-cta {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: var(--sp-16) var(--gutter) var(--sp-20);
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* ── Accent pill variant ── */
+.pill-btn--accent {
+  background: var(--c-accent);
+  color: #fff;
+  border-color: var(--c-accent);
+}
+.pill-btn--accent:hover {
+  background: #6a5ce0;
+  border-color: #6a5ce0;
+}
+
 /* ── Responsive ── */
 @media (max-width: 900px) {
   .dp-meta-grid { grid-template-columns: repeat(2, 1fr); }
@@ -1316,4 +1416,5 @@ ol, ul { list-style: none; }
   .dp-metrics-grid { grid-template-columns: 1fr 1fr; }
   .dp-table-label { width: 120px; font-size: 12px; }
   .dp-table-value { font-size: 12px; }
+  .dp-ba-grid { grid-template-columns: 1fr; }
 }
