@@ -91,14 +91,14 @@ ol, ul { list-style: none; }
   border-bottom: 1px solid var(--c-border);
 }
 .logo {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.08em;
   color: var(--c-fg);
 }
 .nav { display: flex; align-items: center; gap: var(--sp-2); }
 .nav-link {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: var(--c-secondary);
   padding: 6px 12px;
