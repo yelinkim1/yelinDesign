@@ -871,7 +871,7 @@ ol, ul { list-style: none; }
 .footer {
   background: var(--c-footer-bg);
   color: #fff;
-  padding: var(--sp-20) 0 var(--sp-16);
+  padding: 80px 0;
 }
 .footer-inner {
   max-width: var(--max-w);
@@ -884,7 +884,10 @@ ol, ul { list-style: none; }
 .footer-left {
   display: flex;
   flex-direction: column;
-  gap: var(--sp-5);
+  gap: var(--sp-3);
+}
+.footer-left .pill-btn {
+  margin-top: 56px;
 }
 .footer-eyebrow { color: rgba(255,255,255,.4); }
 .footer-headline {
