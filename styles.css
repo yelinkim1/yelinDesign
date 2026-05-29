@@ -202,11 +202,11 @@ ol, ul { list-style: none; }
   padding: 24px 24px 24px;
 }
 .card-client {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--c-secondary);
 }
 .card-title {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: -0.02em;
 }
@@ -981,14 +981,10 @@ ol, ul { list-style: none; }
   margin-bottom: 0;
 }
 .dp-eyebrow {
-  font-size: var(--text-xs);
-  color: var(--c-secondary);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  margin-bottom: var(--sp-5);
+  display: none;
 }
 .dp-title {
-  font-size: clamp(28px, 4vw, 52px);
+  font-size: clamp(28px, 4vw, 48px);
   font-weight: 700;
   letter-spacing: -0.04em;
   line-height: 1.1;
