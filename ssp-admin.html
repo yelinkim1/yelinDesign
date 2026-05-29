@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SSP Admin Management — YELIN KIM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── HEADER ──────────────────────────────── -->
+  <header class="header">
+    <a href="index.html" class="logo">YELIN KIM</a>
+    <nav class="nav">
+      <a href="about.html"  class="nav-link">Profile</a>
+      <a href="index.html"  class="nav-link active">Portfolio</a>
+      <a href="index.html#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main class="detail-main">
+
+    <!-- ── HERO ─────────────────────────────── -->
+    <section class="dp-hero">
+      <a href="index.html" class="dp-back">← Back to Portfolio</a>
+      <p class="dp-eyebrow">SaaS Admin · Management UX · IA · UX/UI Design</p>
+      <h1 class="dp-title">SSP Admin Management<br>기능 기획 및 UX/UI 설계</h1>
+      <p class="dp-summary">SaaS 운영 환경에서 필요한 Tenant, Company, Data 관리 기능을 기획하고, Admin 사용자가 조직·테넌트·데이터 구조를 효율적으로 관리할 수 있도록 UX/UI를 설계한 프로젝트입니다.</p>
+
+      <div class="dp-meta-grid">
+        <div class="dp-meta-item">
+          <span class="dp-meta-label">Role</span>
+          <span class="dp-meta-value">Product Designer<br>Admin UX Designer</span>
+        </div>
+        <div class="dp-meta-item">
+          <span class="dp-meta-label">Scope</span>
+          <span class="dp-meta-value">Admin IA, UX/UI Design<br>User Flow, Dev QA</span>
+        </div>
+        <div class="dp-meta-item">
+          <span class="dp-meta-label">Type</span>
+          <span class="dp-meta-value">Tenant Management<br>Company Management<br>Data Management</span>
+        </div>
+        <div class="dp-meta-item">
+          <span class="dp-meta-label">Duration</span>
+          <span class="dp-meta-value">약 6주</span>
+        </div>
+      </div>
+
+      <div class="dp-highlight-grid">
+        <div class="dp-highlight">
+          <span class="dp-highlight-num">4</span>
+          <span class="dp-highlight-lbl">주요 프로젝트 영역</span>
+        </div>
+        <div class="dp-highlight">
+          <span class="dp-highlight-num">3</span>
+          <span class="dp-highlight-lbl">기획/디자인한 Admin 관리 기능</span>
+        </div>
+        <div class="dp-highlight">
+          <span class="dp-highlight-num">5</span>
+          <span class="dp-highlight-lbl">Tenant Management 설계 영역</span>
+        </div>
+        <div class="dp-highlight">
+          <span class="dp-highlight-num">5</span>
+          <span class="dp-highlight-lbl">Data Management 설계 단계</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── BACKGROUND ───────────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Background</span>
+        </div>
+        <div class="dp-section-body">
+          <p class="dp-body-text">SSP Admin은 테넌트, 회사, 데이터 구조를 관리해야 하는 SaaS 운영 플랫폼입니다. 기능별 요구사항은 존재했지만, 실제 사용자가 정보를 탐색하고 설정을 변경하는 화면 구조와 관리 흐름은 구체화가 필요한 상태였습니다.</p>
+          <p class="dp-body-text">Admin 사용자가 복잡한 조직·테넌트·데이터 정보를 쉽게 탐색하고 관리할 수 있도록, 기능별 IA와 화면 구조를 정리하는 과정이 필요했습니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROBLEM ──────────────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Problem</span>
+        </div>
+        <div class="dp-section-body">
+          <ul class="dp-list">
+            <li>Tenant, Company, Data 관리 기능의 IA가 명확히 정리되지 않음</li>
+            <li>Detail 화면에서 어떤 정보를 어떤 탭으로 구분할지 기준이 필요함</li>
+            <li>Data Management는 데이터 구조가 복잡해 사용자가 이해하기 쉬운 메뉴 설계가 필요함</li>
+            <li>개발 구현 결과와 디자인 산출물 간 검수 프로세스가 필요함</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── GOAL ─────────────────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Goal</span>
+        </div>
+        <div class="dp-section-body">
+          <p class="dp-body-text">Admin 사용자가 테넌트, 회사, 데이터 정보를 쉽게 탐색하고 관리할 수 있도록 기능 구조를 정리하고, 개발 가능한 수준의 화면 설계와 유저 플로우를 제공하는 것을 목표로 했습니다.</p>
+          <div class="dp-card-grid">
+            <div class="dp-card">
+              <span class="dp-card-num">01</span>
+              <p class="dp-card-title">Admin IA 구조화</p>
+              <p class="dp-card-desc">Tenant, Company, Data 관리 기능을 사용 목적과 정보 구조에 맞게 분류하고 메뉴 체계를 정리합니다.</p>
+            </div>
+            <div class="dp-card">
+              <span class="dp-card-num">02</span>
+              <p class="dp-card-title">관리 흐름 설계</p>
+              <p class="dp-card-desc">List, Detail, Tab 구조를 기반으로 Admin 사용자가 필요한 정보를 탐색하고 설정을 변경할 수 있는 흐름을 설계합니다.</p>
+            </div>
+            <div class="dp-card">
+              <span class="dp-card-num">03</span>
+              <p class="dp-card-title">데이터 관리 명확화</p>
+              <p class="dp-card-desc">복잡한 데이터 관리 개념을 Data Ingestion 유저 플로우와 화면 단위로 구체화합니다.</p>
+            </div>
+            <div class="dp-card">
+              <span class="dp-card-num">04</span>
+              <p class="dp-card-title">개발 연계</p>
+              <p class="dp-card-desc">개발팀 요구사항을 확인하고 구현 화면을 검수하여 디자인 산출물이 실제 제품 구현까지 연결되도록 합니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── MY ROLE ──────────────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">My Role</span>
+        </div>
+        <div class="dp-section-body">
+          <p class="dp-body-text">Product Designer이자 Admin UX Designer로서 SaaS Admin 관리 기능의 IA 설계, 화면 기획, UX/UI 디자인, 데이터 관리 유저 플로우 작성, 개발 리뷰 및 구현 화면 검수까지 담당했습니다.</p>
+          <ul class="dp-role-list">
+            <li>SaaS Admin 관리 기능 IA 및 화면 구조 설계</li>
+            <li>Tenant Management List / Detail 화면 기획 및 디자인</li>
+            <li>Company Management 화면 개선 및 변경사항 반영</li>
+            <li>Data Management 메뉴 구조 및 Data Ingestion 유저 플로우 설계</li>
+            <li>개발팀 요구사항 확인 및 기획 범위 조율</li>
+            <li>개발 구현 화면 View / Edit 기능 검수</li>
+            <li>로그인 화면 커스터마이징 및 Import Stores 기능 설계 대응</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROCESS ──────────────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Process</span>
+        </div>
+        <div class="dp-section-body">
+          <div class="dp-process-list">
+            <div class="dp-process-item">
+              <span class="dp-process-num">01</span>
+              <div>
+                <p class="dp-process-title">Requirement Review</p>
+                <p class="dp-process-desc">기존 요구사항과 기능 범위를 확인하고, Admin 관리 기능에서 필요한 화면 구조를 검토했습니다.</p>
+              </div>
+            </div>
+            <div class="dp-process-item">
+              <span class="dp-process-num">02</span>
+              <div>
+                <p class="dp-process-title">Management Feature Classification</p>
+                <p class="dp-process-desc">Tenant, Company, Data 관리 기능을 구분하고 각 기능의 목적과 정보 구조를 정리했습니다.</p>
+              </div>
+            </div>
+            <div class="dp-process-item">
+              <span class="dp-process-num">03</span>
+              <div>
+                <p class="dp-process-title">List / Detail / Tab IA Design</p>
+                <p class="dp-process-desc">Tenant Management를 중심으로 List, Detail, General, Store, Design 탭 구조를 설계했습니다.</p>
+              </div>
+            </div>
+            <div class="dp-process-item">
+              <span class="dp-process-num">04</span>
+              <div>
+                <p class="dp-process-title">SaaS Data Reference Research</p>
+                <p class="dp-process-desc">SaaS 데이터 관리 솔루션을 리서치하며 Data Management 메뉴와 화면 흐름에 필요한 기준을 검토했습니다.</p>
+              </div>
+            </div>
+            <div class="dp-process-item">
+              <span class="dp-process-num">05</span>
+              <div>
+                <p class="dp-process-title">Data Ingestion User Flow</p>
+                <p class="dp-process-desc">Data Ingestion 흐름을 중심으로 Admin 사용자가 데이터를 이해하고 관리할 수 있는 유저 플로우를 작성했습니다.</p>
+              </div>
+            </div>
+            <div class="dp-process-item">
+              <span class="dp-process-num">06</span>
+              <div>
+                <p class="dp-process-title">UX/UI Design Application</p>
+                <p class="dp-process-desc">정리된 IA와 유저 플로우를 바탕으로 Tenant, Company, Data Management 화면 설계와 UI 디자인을 적용했습니다.</p>
+              </div>
+            </div>
+            <div class="dp-process-item">
+              <span class="dp-process-num">07</span>
+              <div>
+                <p class="dp-process-title">Development Review</p>
+                <p class="dp-process-desc">개발팀 요구사항을 확인하고 기획 범위를 조율하며, 리뷰 과정에서 변경사항을 반영했습니다.</p>
+              </div>
+            </div>
+            <div class="dp-process-item">
+              <span class="dp-process-num">08</span>
+              <div>
+                <p class="dp-process-title">View / Edit QA</p>
+                <p class="dp-process-desc">개발 완료된 Map View / Editor의 View/Edit 기능을 검수하고 구현 상태를 확인했습니다.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── KEY WORK ──────────────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Key Work</span>
+        </div>
+        <div class="dp-section-body">
+
+          <!-- Accordion 1 -->
+          <div class="dp-accordion">
+            <button class="dp-accordion-trigger">
+              <span class="dp-accordion-title">1. Tenant Management 기획 및 디자인</span>
+              <span class="dp-accordion-icon">↓</span>
+            </button>
+            <div class="dp-accordion-body">
+              <p class="dp-blockquote">SaaS Admin 환경에서 테넌트 정보를 효율적으로 관리할 수 있도록 Tenant Management 기능을 기획하고 화면을 설계했습니다. List와 Detail 구조를 중심으로 정보 탐색 흐름을 정리하고, 사업자 인증, Store Import, Login 커스터마이징 등 실제 운영에 필요한 관리 기능을 탭 구조로 구성했습니다.</p>
+              <ul class="dp-task-list">
+                <li>Tenant List 화면 기획 및 디자인</li>
+                <li>Tenant Detail Page 세부 항목 기획</li>
+                <li>General 탭 내 사업자 인증 관련 화면 설계</li>
+                <li>Store 탭 내 Import Stores 기능 설계</li>
+                <li>Design 탭 내 Login 화면 커스터마이징 설계</li>
+                <li>개발 리뷰 대응 및 변경사항 반영</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Accordion 2 -->
+          <div class="dp-accordion">
+            <button class="dp-accordion-trigger">
+              <span class="dp-accordion-title">2. Data Management 기획 및 UX/UI 설계</span>
+              <span class="dp-accordion-icon">↓</span>
+            </button>
+            <div class="dp-accordion-body">
+              <p class="dp-blockquote">복잡한 데이터 관리 구조를 Admin 사용자가 이해하기 쉽도록 Data Management 메뉴와 화면 흐름을 설계했습니다. SaaS 데이터 관리 솔루션을 리서치하고, 개발팀과 데이터 구조 방향성을 조율하여 Data Ingestion 중심의 유저 플로우와 IA를 구체화했습니다.</p>
+              <ul class="dp-task-list">
+                <li>SaaS 데이터 관리 솔루션 레퍼런스 리서치</li>
+                <li>STI / SSP 데이터 관리 구조 초안 요청 및 요구사항 확인</li>
+                <li>Data Management 방향성 정리 회의 참여</li>
+                <li>메뉴 기능 관련 개발 요구사항 확인</li>
+                <li>변경된 IA 기반 메뉴 상세 설계</li>
+                <li>Data Ingestion 유저 플로우 작성</li>
+                <li>Data Management 화면 설계 및 디자인 적용</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Accordion 3 -->
+          <div class="dp-accordion">
+            <button class="dp-accordion-trigger">
+              <span class="dp-accordion-title">3. Company Management 개선 및 변경사항 반영</span>
+              <span class="dp-accordion-icon">↓</span>
+            </button>
+            <div class="dp-accordion-body">
+              <p class="dp-blockquote">Company Management 화면의 기획 누락 및 변경사항을 점검하고, UI 컴포넌트 구조를 정리했습니다. 기존 화면의 관리 기능 흐름을 유지하면서 변경된 요구사항이 일관된 UI 패턴으로 반영되도록 개선했습니다.</p>
+              <ul class="dp-task-list">
+                <li>기획 누락 항목 확인</li>
+                <li>변경사항 디자인 반영</li>
+                <li>디자인 컴포넌트 변경 및 UI 정리</li>
+                <li>Company Management 화면 구조 개선</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Accordion 4 -->
+          <div class="dp-accordion">
+            <button class="dp-accordion-trigger">
+              <span class="dp-accordion-title">4. Seah Lab Map View / Editor 개발 대응</span>
+              <span class="dp-accordion-icon">↓</span>
+            </button>
+            <div class="dp-accordion-body">
+              <p class="dp-blockquote">개발 완료된 Map View / Editor 기능의 View/Edit 동작을 검수하며 디자인 산출물과 구현 결과 간의 차이를 확인했습니다. 최종 개발안 기준으로 기능 완성도를 점검하고, QA 관점에서 개발 대응을 진행했습니다.</p>
+              <ul class="dp-task-list">
+                <li>Seah Lab Map View / Editor 개발 대응</li>
+                <li>최종 개발안 View 기능 검수</li>
+                <li>Edit 기능 검수</li>
+                <li>개발 완료 상태 확인</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── OUTCOME ──────────────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Outcome</span>
+        </div>
+        <div class="dp-section-body">
+          <p class="dp-body-text">Tenant, Company, Data Management 기능의 화면 구조와 관리 흐름을 구체화하여 SaaS Admin의 운영 기능 기반을 정리했습니다. 또한 개발팀과의 검토 및 기능 검수를 통해 디자인 산출물이 실제 구현 단계까지 연결될 수 있도록 기여했습니다.</p>
+          <ul class="dp-outcome-list">
+            <li>SaaS Admin 핵심 관리 기능의 화면 구조 구체화</li>
+            <li>Tenant / Company / Data 관리 기능의 IA와 UX 흐름 정리</li>
+            <li>복잡한 데이터 관리 개념을 Admin 화면 단위로 구조화</li>
+            <li>개발팀 요구사항과 기획 범위를 조율하여 구현 가능성 강화</li>
+            <li>View / Edit 개발 검수를 통해 디자인-개발 간 품질 차이 최소화</li>
+            <li>Admin 제품군 내 관리 기능의 UI 일관성 확보</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── IMPACT IN NUMBERS ─────────────────── -->
+    <section class="dp-section">
+      <div class="dp-section-inner">
+        <div class="dp-section-sidebar">
+          <span class="dp-section-label">Impact</span>
+        </div>
+        <div class="dp-section-body">
+          <div class="dp-metrics-grid">
+            <div class="dp-metric">
+              <span class="dp-metric-num">6주</span>
+              <span class="dp-metric-lbl">진행 기간</span>
+            </div>
+            <div class="dp-metric">
+              <span class="dp-metric-num">4</span>
+              <span class="dp-metric-lbl">주요 프로젝트 영역</span>
+            </div>
+            <div class="dp-metric">
+              <span class="dp-metric-num">3</span>
+              <span class="dp-metric-lbl">기획/디자인한 Admin 관리 기능</span>
+            </div>
+            <div class="dp-metric">
+              <span class="dp-metric-num">5</span>
+              <span class="dp-metric-lbl">Tenant Management 설계 영역</span>
+            </div>
+            <div class="dp-metric">
+              <span class="dp-metric-num">5</span>
+              <span class="dp-metric-lbl">Data Management 설계 단계</span>
+            </div>
+            <div class="dp-metric">
+              <span class="dp-metric-num">3</span>
+              <span class="dp-metric-lbl">Company Management 개선 항목</span>
+            </div>
+            <div class="dp-metric">
+              <span class="dp-metric-num">1</span>
+              <span class="dp-metric-lbl">개발 검수 대응 기능</span>
+            </div>
+            <div class="dp-metric">
+              <span class="dp-metric-num">1</span>
+              <span class="dp-metric-lbl">View/Edit 검수 완료 기능</span>
+            </div>
+          </div>
+
+          <table class="dp-table">
+            <tbody>
+              <tr><td class="dp-table-label">진행 기간</td><td class="dp-table-value">약 6주</td></tr>
+              <tr><td class="dp-table-label">작업 기록 범위</td><td class="dp-table-value">1주차 ~ 10주차 내 주요 기능 진행</td></tr>
+              <tr><td class="dp-table-label">주요 프로젝트 영역</td><td class="dp-table-value">4개 (Tenant Management, Data Management, Company Management, Map View / Editor)</td></tr>
+              <tr><td class="dp-table-label">기획/디자인한 Admin 관리 기능</td><td class="dp-table-value">3개</td></tr>
+              <tr><td class="dp-table-label">개발 검수 대응 기능</td><td class="dp-table-value">1개</td></tr>
+              <tr><td class="dp-table-label">Tenant Management 설계 화면</td><td class="dp-table-value">List / Detail / General / Store / Design 기준 5개 영역</td></tr>
+              <tr><td class="dp-table-label">Data Management 설계 범위</td><td class="dp-table-value">리서치, IA, 메뉴 상세, User Flow, 화면 디자인 5단계</td></tr>
+              <tr><td class="dp-table-label">Company Management 개선 범위</td><td class="dp-table-value">기획 누락 반영, 컴포넌트 변경, UI 정리 3개 항목</td></tr>
+              <tr><td class="dp-table-label">개발 대응 완료 항목</td><td class="dp-table-value">Map View / Editor View/Edit 기능 검수 완료</td></tr>
+              <tr><td class="dp-table-label">협업 대상</td><td class="dp-table-value">기획, HQ Dev, 개발 담당자</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────── -->
+  <footer class="footer" id="contact">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <p class="footer-eyebrow">Contact</p>
+        <h2 class="footer-headline">Let's start<br>creating<br>together</h2>
+        <a href="mailto:hello@yelinkim.com" class="pill-btn pill-btn--light">Let's talk <span class="arrow">↗</span></a>
+      </div>
+      <nav class="footer-nav">
+        <div class="footer-nav-col">
+          <a href="index.html">Home</a>
+          <a href="index.html">Work</a>
+          <a href="about.html">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-nav-col">
+          <a href="#" target="_blank">LinkedIn <span class="arrow">↗</span></a>
+          <a href="#" target="_blank">Behance <span class="arrow">↗</span></a>
+        </div>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script>
+    // Key Work Accordion
+    document.querySelectorAll('.dp-accordion-trigger').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.dp-accordion');
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.dp-accordion.open').forEach(el => el.classList.remove('open'));
+        if (!isOpen) item.classList.add('open');
+      });
+    });
+  </script>
+</body>
+</html>
