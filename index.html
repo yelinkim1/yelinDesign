@@ -758,17 +758,22 @@
             </div>
           </div>
           <div class="portfolio-body">
-            <h3 class="portfolio-card-title">SaaS Admin Data Platform UX</h3>
-            <p class="portfolio-card-desc">데이터 수집, 처리, 모니터링 흐름을 Admin 사용자가 이해하기 쉽게 설계한 데이터 플랫폼 UX 프로젝트입니다.</p>
+            <h3 class="portfolio-card-title">SSP 기반 외부 솔루션 연동 POC 및 Admin UX/UI 설계</h3>
+            <p class="portfolio-card-desc">Space Vision, Trace it, Seerslab 등 외부 솔루션과 SSP의 연동 가능성을 검토하고, Dashboard / Map View POC와 Admin 관리 기능을 설계한 프로젝트입니다.</p>
             <div class="portfolio-card-tags">
+              <span class="badge">POC UX</span>
               <span class="badge">SaaS Admin</span>
-              <span class="badge">Data Platform</span>
-              <span class="badge-gray badge">Monitoring</span>
-              <span class="badge-gray badge">IA</span>
+              <span class="badge-gray badge">Dashboard</span>
+              <span class="badge-gray badge">Map View</span>
+              <span class="badge-gray badge">External Integration</span>
             </div>
             <div class="portfolio-card-footer">
-              <div style="display:flex; align-items:center; justify-content:flex-end;">
-                <span style="font-size:13px; color:var(--text-tertiary); font-weight:500;">Coming Soon</span>
+              <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px;">
+                <span style="font-size:12px; color:var(--text-tertiary);">Product Designer / POC UX Designer · 2025</span>
+                <button onclick="openDetailSSP()" class="btn btn-ghost">
+                  View Project
+                  <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
               </div>
             </div>
           </div>
@@ -960,8 +965,394 @@
 
   </div><!-- /#detail-page -->
 
+
+  <!-- ===== DETAIL PAGE: SSP POC ===== -->
+  <div id="detail-page-ssp" style="display:none;">
+
+  <div style="position:sticky;top:0;z-index:100;height:64px;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid #E5E7EB;">
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;height:100%;">
+      <a class="nav-logo" href="#" onclick="closeDetailSSP();return false;">YERIN<span style="color:#2563EB;">.K</span></a>
+      <button onclick="closeDetailSSP()" style="display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border-radius:8px;font-size:14px;font-weight:600;color:#6B7280;background:#F9FAFB;border:1px solid #E5E7EB;cursor:pointer;">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 3L5 8l5 5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Back to Portfolio
+      </button>
+    </div>
+  </div>
+
+  <section id="project-ssp-poc">
+    <div class="container">
+
+      <!-- 1. Hero -->
+      <div class="detail-hero fade-in">
+        <p class="detail-caption">2025 · SaaS Admin · POC UX · External Solution Integration</p>
+        <h1 class="detail-h1">SSP 기반 외부 솔루션 연동 POC<br>및 Admin UX/UI 설계</h1>
+        <p class="detail-body">Space Vision, Trace it, Seerslab 등 외부 솔루션과 SSP의 연동 가능성을 검토하고, 데모·전시·개발 협업을 위한 Dashboard / Map View POC 화면과 Admin 관리 기능을 기획·디자인한 프로젝트입니다.</p>
+        <div class="detail-meta-grid" style="margin-bottom:40px;">
+          <div class="detail-meta-card"><div class="detail-meta-label">Role</div><div class="detail-meta-value">Product Designer<br>POC UX Designer</div></div>
+          <div class="detail-meta-card"><div class="detail-meta-label">Scope</div><div class="detail-meta-value">POC UX Design<br>Admin UX/UI<br>Demo Scenario<br>Dev Collaboration</div></div>
+          <div class="detail-meta-card"><div class="detail-meta-label">Project Type</div><div class="detail-meta-value">External Solution Integration<br>Dashboard POC<br>Map View POC</div></div>
+          <div class="detail-meta-card"><div class="detail-meta-label">Year</div><div class="detail-meta-value">2025</div></div>
+        </div>
+        <!-- Hero Metrics -->
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;">
+          <div style="background:var(--accent-light);border:1px solid var(--accent-mid);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:32px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;">4+</div>
+            <div style="font-size:13px;color:var(--text-secondary);margin-top:4px;font-weight:500;">주요 협업 프로젝트</div>
+          </div>
+          <div style="background:var(--accent-light);border:1px solid var(--accent-mid);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:32px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;">2</div>
+            <div style="font-size:13px;color:var(--text-secondary);margin-top:4px;font-weight:500;">POC 제작 참여</div>
+          </div>
+          <div style="background:var(--accent-light);border:1px solid var(--accent-mid);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:32px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;">3</div>
+            <div style="font-size:13px;color:var(--text-secondary);margin-top:4px;font-weight:500;">전시 데모 컨셉</div>
+          </div>
+          <div style="background:var(--accent-light);border:1px solid var(--accent-mid);border-radius:var(--radius-md);padding:20px 24px;text-align:center;">
+            <div style="font-size:32px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;">1</div>
+            <div style="font-size:13px;color:var(--text-secondary);margin-top:4px;font-weight:500;">Tenant Management 설계</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Background -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Background</h2>
+        <p class="detail-section-desc">SSP는 내부 Admin 플랫폼을 넘어 외부 솔루션과 연동 가능한 서비스 플랫폼으로 확장 가능성을 검토하고 있었습니다. 이를 위해 Space Vision, Trace it, Seerslab 등 다양한 외부 솔루션과의 연동 논의가 진행되었고, 사업 검토와 개발 협업을 위한 POC 화면이 필요했습니다.</p>
+        <p style="font-size:15px;color:var(--text-secondary);line-height:1.75;margin-bottom:32px;">외부 솔루션의 기능을 SSP 안에서 어떻게 연결하고, Admin 사용자가 어떤 정보를 확인하고 관리할 수 있을지 화면 기준으로 구체화하는 과정이 필요했습니다.</p>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;">
+          <div class="detail-card" style="text-align:center;">
+            <div style="font-size:24px;margin-bottom:10px;">🔭</div>
+            <div class="detail-card-title">Space Vision</div>
+            <div class="detail-card-desc">공간 기반 데이터 솔루션</div>
+          </div>
+          <div class="detail-card" style="text-align:center;">
+            <div style="font-size:24px;margin-bottom:10px;">📍</div>
+            <div class="detail-card-title">Trace it</div>
+            <div class="detail-card-desc">트래킹 기반 연동 솔루션</div>
+          </div>
+          <div class="detail-card" style="text-align:center;">
+            <div style="font-size:24px;margin-bottom:10px;">👁️</div>
+            <div class="detail-card-title">Seerslab</div>
+            <div class="detail-card-desc">AR/Map View 협업 솔루션</div>
+          </div>
+          <div class="detail-card" style="text-align:center;background:var(--accent-light);border-color:var(--accent-mid);">
+            <div style="font-size:24px;margin-bottom:10px;">⚙️</div>
+            <div class="detail-card-title" style="color:var(--accent);">SSP Platform</div>
+            <div class="detail-card-desc">내부 SaaS Admin 플랫폼</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Problem -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Problem</h2>
+        <p class="detail-section-desc">외부 솔루션 연동 논의는 진행되고 있었지만, 실제 서비스 플랫폼 안에서 어떤 화면과 기능으로 연결될지에 대한 기준은 아직 구체화되지 않은 상태였습니다.</p>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
+          <div class="detail-card"><div class="detail-card-num">01</div><div class="detail-card-title">연동 화면 기준 부족</div><div class="detail-card-desc">외부 솔루션을 SSP에 어떻게 연결하고 Admin에서 어떻게 보여줄지 화면 기준이 필요했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">02</div><div class="detail-card-title">데이터 확인 범위 정의 필요</div><div class="detail-card-desc">솔루션 연동 후 Dashboard에서 어떤 데이터를 확인하고 관리해야 하는지 정리가 필요했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">03</div><div class="detail-card-title">공간 기반 관리 경험 필요</div><div class="detail-card-desc">Map View를 통해 매장, 오브젝트, 공간 정보를 직관적으로 확인할 수 있는 구조가 필요했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">04</div><div class="detail-card-title">데모 시나리오 부족</div><div class="detail-card-desc">전시 환경에서 기능 가치를 쉽게 전달할 수 있는 사용 흐름과 시연 시나리오가 필요했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">05</div><div class="detail-card-title">협업 방향 정렬 필요</div><div class="detail-card-desc">외부 협력사, 내부 개발팀, 영상 제작사 간 구현 범위와 화면 방향을 맞추는 과정이 필요했습니다.</div></div>
+        </div>
+      </div>
+
+      <!-- 4. Goal -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Goal</h2>
+        <p class="detail-section-desc">외부 솔루션과 SSP의 연동 구조를 화면으로 구체화하고, Dashboard / Map View POC를 통해 데이터 확인 및 공간 기반 관리 경험을 시각화하는 것을 목표로 했습니다.</p>
+        <div class="detail-cards-grid">
+          <div class="detail-card"><div class="detail-card-num" style="background:#F0FDF4;border-color:#BBF7D0;color:#16A34A;">01</div><div class="detail-card-title">Visualize Integration Flow</div><div class="detail-card-desc">외부 솔루션이 SSP 안에서 어떤 기능과 화면으로 연결될 수 있는지 구체화합니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num" style="background:#F0FDF4;border-color:#BBF7D0;color:#16A34A;">02</div><div class="detail-card-title">Design POC Experience</div><div class="detail-card-desc">Dashboard와 Map View를 통해 데이터 확인, 공간 정보 탐색, 오브젝트 관리 흐름을 시각화합니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num" style="background:#F0FDF4;border-color:#BBF7D0;color:#16A34A;">03</div><div class="detail-card-title">Support Business Discussion</div><div class="detail-card-desc">신규 사업 검토와 외부 협업 논의에 활용할 수 있는 화면 산출물과 데모 시나리오를 마련합니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num" style="background:#F0FDF4;border-color:#BBF7D0;color:#16A34A;">04</div><div class="detail-card-title">Align with Development</div><div class="detail-card-desc">Unity 개발, View/Edit 기능 검토, Admin 기능 설계를 통해 실제 구현 방향과 디자인 방향을 정렬합니다.</div></div>
+        </div>
+      </div>
+
+      <!-- 5. My Role -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">My Role</h2>
+        <p class="detail-section-desc">Product Designer이자 POC UX Designer로서 외부 솔루션 연동 논의부터 Dashboard / Map View POC 화면 설계, Unity 개발 대응, 전시 데모 시나리오 기획, Tenant Management Admin 설계까지 프로젝트 전반의 UX/UI 구체화를 담당했습니다.</p>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
+          <div class="detail-card"><div class="detail-card-num">01</div><div class="detail-card-title">POC UX Planning</div><div class="detail-card-desc">외부 솔루션 연동 가능성을 검토하고, SSP 내에서 필요한 화면과 기능 흐름을 정리했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">02</div><div class="detail-card-title">Dashboard POC</div><div class="detail-card-desc">연동 데이터를 Admin에서 빠르게 확인할 수 있도록 Dashboard POC 화면 구조 검토에 참여했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">03</div><div class="detail-card-title">Map View POC Design</div><div class="detail-card-desc">공간 기반 정보를 확인하고 관리할 수 있는 Map View 화면과 View/Edit 기능 구조를 디자인했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">04</div><div class="detail-card-title">Development Collaboration</div><div class="detail-card-desc">Unity 기반 개발 대응, 기능 범위 확인, 개발 결과물 검토를 통해 디자인과 구현 방향을 맞췄습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">05</div><div class="detail-card-title">Demo Scenario Planning</div><div class="detail-card-desc">Picking, RFID, Load-cell 등 전시 데모 컨셉을 기반으로 사용 흐름과 시연 시나리오를 정리했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num">06</div><div class="detail-card-title">Tenant Management UX/UI</div><div class="detail-card-desc">SSP Admin 내 Tenant Management 기능의 List / Detail 화면 구조를 기획하고 디자인했습니다.</div></div>
+        </div>
+      </div>
+
+      <!-- 6. Process -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Process</h2>
+        <p class="detail-section-desc">외부 솔루션 도입 논의에서 시작해 SSP 연동 가능 기능을 검토하고, Dashboard / Map View POC 화면과 전시 데모 시나리오, Admin 관리 기능까지 단계적으로 구체화했습니다.</p>
+        <div class="timeline">
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">01</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">External Solution Discussion</div><div class="timeline-desc">Space Vision, Trace it, Seerslab 등 외부 솔루션의 SSP 도입 논의에 참여하고 연동 방향을 검토했습니다.</div></div></div>
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">02</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">Integration Scope Review</div><div class="timeline-desc">외부 솔루션이 SSP 내에서 어떤 기능으로 연결될 수 있는지 기능 범위와 데이터 흐름을 확인했습니다.</div></div></div>
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">03</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">Dashboard POC Structure</div><div class="timeline-desc">캠페인, 매장, POS Data 등 연동 가능한 데이터를 Admin 화면에서 어떻게 확인할지 Dashboard POC 구조를 검토했습니다.</div></div></div>
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">04</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">Map View POC Design</div><div class="timeline-desc">공간, 매장, 오브젝트 정보를 기반으로 Map View 화면 구조와 정보 위계를 설계했습니다.</div></div></div>
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">05</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">View / Edit Function Review</div><div class="timeline-desc">Map 기반 View / Editor 기능 구현 방향을 검토하고 Unity 개발 대응을 진행했습니다.</div></div></div>
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">06</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">Demo Scenario Planning</div><div class="timeline-desc">Picking, RFID, Load-cell 컨셉을 기반으로 전시 데모 시나리오와 화면 흐름을 정리했습니다.</div></div></div>
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">07</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">Tenant Management Design</div><div class="timeline-desc">SSP Admin에서 Tenant 정보를 관리할 수 있도록 List / Detail 중심의 관리 화면을 기획하고 디자인했습니다.</div></div></div>
+          <div class="timeline-item"><div class="timeline-left"><div class="timeline-dot">08</div><div class="timeline-line"></div></div><div class="timeline-content"><div class="timeline-title">Feedback &amp; Alignment</div><div class="timeline-desc">외부 협력사, 개발팀, 영상 제작사, STI 개발 담당자와 피드백을 주고받으며 구현 방향을 조율했습니다.</div></div></div>
+        </div>
+      </div>
+
+      <!-- 7. Key Work -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Key Work</h2>
+        <p class="detail-section-desc">POC 화면 설계뿐 아니라 외부 솔루션 연동 검토, Unity 개발 대응, 전시 데모 시나리오, Admin 관리 기능 설계까지 SSP 확장 가능성을 검토하기 위한 여러 산출물을 함께 정리했습니다.</p>
+        <div style="display:flex;flex-direction:column;gap:16px;" id="keywork-list">
+
+          <div class="detail-card keywork-item">
+            <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;cursor:pointer;" onclick="toggleKeywork(this)">
+              <div style="display:flex;align-items:center;gap:14px;flex:1;">
+                <div class="detail-card-num" style="flex-shrink:0;margin-bottom:0;">01</div>
+                <div class="detail-card-title" style="margin-bottom:0;">Space Vision / Trace it 연동 검토</div>
+              </div>
+              <svg style="flex-shrink:0;color:var(--text-tertiary);transition:transform .25s;" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 7.5l5 5 5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="keywork-body" style="max-height:0;overflow:hidden;transition:max-height .3s ease;">
+              <div style="padding-top:16px;border-top:1px solid var(--border);margin-top:16px;">
+                <p class="detail-card-desc" style="margin-bottom:16px;">Space Vision, Trace it 등 외부 솔루션의 SSP 도입 논의에 참여하여 서비스 연동 방향과 기능 흐름을 검토했습니다. 외부 솔루션이 SSP 내에서 어떻게 관리되고 확장될 수 있는지 확인하며, POC 화면 제작과 Admin 기능 설계를 위한 기반을 정리했습니다.</p>
+                <ul style="display:flex;flex-direction:column;gap:6px;">
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Space Vision SSP 도입 논의 플로우업</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Trace it ↔ SSP 도입 논의 플로우업</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Trace it ↔ SSP 도입 관련 개발 미팅 참여</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Space Vision 캠페인 ↔ POS Data 연동 후속 논의 검토</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>외부 솔루션과 SSP 간 기능 연결 흐름 검토</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail-card keywork-item">
+            <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;cursor:pointer;" onclick="toggleKeywork(this)">
+              <div style="display:flex;align-items:center;gap:14px;flex:1;">
+                <div class="detail-card-num" style="flex-shrink:0;margin-bottom:0;">02</div>
+                <div class="detail-card-title" style="margin-bottom:0;">Seerslab 협업 및 Unity 개발 대응</div>
+              </div>
+              <svg style="flex-shrink:0;color:var(--text-tertiary);transition:transform .25s;" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 7.5l5 5 5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="keywork-body" style="max-height:0;overflow:hidden;transition:max-height .3s ease;">
+              <div style="padding-top:16px;border-top:1px solid var(--border);margin-top:16px;">
+                <p class="detail-card-desc" style="margin-bottom:16px;">Unity 기반 Map View 개발 대응과 기능 검토를 진행했습니다. 외부 협력사와 내부 개발팀 사이에서 화면 구현 방향과 기능 범위를 확인하고, 디자인 산출물이 실제 개발 결과물로 연결될 수 있도록 커뮤니케이션을 지원했습니다.</p>
+                <ul style="display:flex;flex-direction:column;gap:6px;">
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Unity 개발 대응</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>개발 일정 및 기능 범위 확인</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>View / Editor 기능 구현 방향 검토</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>개발 결과물 확인 및 커뮤니케이션 대응</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail-card keywork-item">
+            <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;cursor:pointer;" onclick="toggleKeywork(this)">
+              <div style="display:flex;align-items:center;gap:14px;flex:1;">
+                <div class="detail-card-num" style="flex-shrink:0;margin-bottom:0;">03</div>
+                <div class="detail-card-title" style="margin-bottom:0;">Dashboard POC 제작 참여</div>
+              </div>
+              <svg style="flex-shrink:0;color:var(--text-tertiary);transition:transform .25s;" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 7.5l5 5 5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="keywork-body" style="max-height:0;overflow:hidden;transition:max-height .3s ease;">
+              <div style="padding-top:16px;border-top:1px solid var(--border);margin-top:16px;">
+                <p class="detail-card-desc" style="margin-bottom:16px;">SSP 연동 서비스의 핵심 데이터를 빠르게 확인할 수 있도록 Dashboard POC 제작에 참여했습니다. 캠페인, 매장, POS Data 등 연동 가능한 데이터를 Admin 화면에서 어떻게 시각화하고 탐색할지 검토하며 데이터 기반 관리 화면의 초기 방향성을 구체화했습니다.</p>
+                <ul style="display:flex;flex-direction:column;gap:6px;">
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Dashboard POC 제작 참여</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>데이터 확인 목적의 화면 구조 검토</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>캠페인, 매장, POS Data 등 연동 데이터 표현 방식 검토</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Admin 사용자가 주요 데이터를 빠르게 파악할 수 있는 구조 설계 지원</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail-card keywork-item">
+            <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;cursor:pointer;" onclick="toggleKeywork(this)">
+              <div style="display:flex;align-items:center;gap:14px;flex:1;">
+                <div class="detail-card-num" style="flex-shrink:0;margin-bottom:0;">04</div>
+                <div class="detail-card-title" style="margin-bottom:0;">Map View POC 디자인</div>
+              </div>
+              <svg style="flex-shrink:0;color:var(--text-tertiary);transition:transform .25s;" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 7.5l5 5 5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="keywork-body" style="max-height:0;overflow:hidden;transition:max-height .3s ease;">
+              <div style="padding-top:16px;border-top:1px solid var(--border);margin-top:16px;">
+                <p class="detail-card-desc" style="margin-bottom:16px;">공간 기반 정보를 직관적으로 확인할 수 있는 Map View POC를 디자인했습니다. View/Edit 기능 구조를 기준으로 맵 영역, 정보 패널, 오브젝트 관리 흐름을 설계하고, 향후 Editor 기능으로 확장 가능한 UI 구조를 검토했습니다.</p>
+                <ul style="display:flex;flex-direction:column;gap:6px;">
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Map View POC 디자인</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>공간 / 매장 / 오브젝트 기반 정보 표시 방식 검토</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>View / Edit 기능 기준 화면 설계</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Map 기반 관리 화면의 정보 위계 정리</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>향후 Editor 기능 개발 대응을 위한 UI 구조 검토</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail-card keywork-item">
+            <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;cursor:pointer;" onclick="toggleKeywork(this)">
+              <div style="display:flex;align-items:center;gap:14px;flex:1;">
+                <div class="detail-card-num" style="flex-shrink:0;margin-bottom:0;">05</div>
+                <div class="detail-card-title" style="margin-bottom:0;">전시 데모 시나리오 기획 참여</div>
+              </div>
+              <svg style="flex-shrink:0;color:var(--text-tertiary);transition:transform .25s;" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 7.5l5 5 5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="keywork-body" style="max-height:0;overflow:hidden;transition:max-height .3s ease;">
+              <div style="padding-top:16px;border-top:1px solid var(--border);margin-top:16px;">
+                <p class="detail-card-desc" style="margin-bottom:16px;">전시 환경에서 SSP 연동 기능을 효과적으로 보여줄 수 있도록 데모 시나리오 기획에 참여했습니다. Picking, RFID, Load-cell 등 주요 컨셉을 기반으로 사용 흐름을 정리하고, 외주 개발사 및 영상 제작 대응을 통해 데모 완성도를 높이는 데 기여했습니다.</p>
+                <ul style="display:flex;flex-direction:column;gap:6px;">
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>전시 데모별 시나리오 기획 참여</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>Picking, RFID, Load-cell 컨셉 시나리오 정리</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>외주사 개발 및 영상 제작 대응</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>STI 개발 대응</li>
+                  <li style="display:flex;gap:8px;font-size:13px;color:var(--text-secondary);"><span style="color:var(--accent);font-weight:600;flex-shrink:0;">—</span>데모 흐름에 맞춘 화면 / 기능 연결 구조 검토</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- 8. Before & After -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Before &amp; After</h2>
+        <div class="ba-grid">
+          <div class="ba-card ba-card-before">
+            <p class="ba-label">Before</p>
+            <ul class="ba-list">
+              <li class="ba-item"><span class="ba-icon">✕</span>외부 솔루션을 SSP 안에서 어떻게 연결할지 화면 기준이 부족함</li>
+              <li class="ba-item"><span class="ba-icon">✕</span>데이터 연동 후 Admin에서 확인해야 할 정보 범위가 명확하지 않음</li>
+              <li class="ba-item"><span class="ba-icon">✕</span>Map View / Dashboard 등 사업 검토용 POC 화면 필요</li>
+              <li class="ba-item"><span class="ba-icon">✕</span>전시 데모에서 기능 가치를 전달할 시나리오 필요</li>
+              <li class="ba-item"><span class="ba-icon">✕</span>외부 협력사와 내부 개발팀 간 구현 방향 정렬 필요</li>
+            </ul>
+          </div>
+          <div class="ba-card ba-card-after">
+            <p class="ba-label">After</p>
+            <ul class="ba-list">
+              <li class="ba-item"><span class="ba-icon">✓</span>외부 솔루션과 SSP의 연동 가능성을 화면 흐름으로 구체화</li>
+              <li class="ba-item"><span class="ba-icon">✓</span>Dashboard POC를 통해 연동 데이터 확인 구조 검토</li>
+              <li class="ba-item"><span class="ba-icon">✓</span>Map View POC를 통해 공간 기반 관리 경험 시각화</li>
+              <li class="ba-item"><span class="ba-icon">✓</span>Picking, RFID, Load-cell 기반 전시 데모 시나리오 정리</li>
+              <li class="ba-item"><span class="ba-icon">✓</span>Unity 개발 대응 및 View/Edit 기능 검토로 구현 방향 정렬</li>
+              <li class="ba-item"><span class="ba-icon">✓</span>Tenant Management 설계를 통해 Admin 확장 기반 마련</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9. Outcome -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Outcome</h2>
+        <p class="detail-section-desc">SSP와 외부 솔루션 간 연동 가능성을 화면과 시나리오로 구체화했습니다. Dashboard POC, Map View POC, 전시 데모 시나리오를 통해 신규 사업 논의와 개발 협업이 가능한 초기 산출물을 마련했으며, Admin 관리 기능인 Tenant Management 설계까지 연결해 SSP의 확장 기반을 강화했습니다.</p>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;">
+          <div class="detail-card"><div class="detail-card-num" style="background:#EFF6FF;border-color:#BFDBFE;color:#2563EB;">01</div><div class="detail-card-title">External Integration Visualized</div><div class="detail-card-desc">Space Vision, Trace it, Seerslab 등 외부 솔루션과 SSP의 연동 가능성을 화면 흐름으로 구체화했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num" style="background:#EFF6FF;border-color:#BFDBFE;color:#2563EB;">02</div><div class="detail-card-title">POC Screens Delivered</div><div class="detail-card-desc">Dashboard POC와 Map View POC를 통해 데이터 확인 및 공간 기반 관리 경험을 시각화했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num" style="background:#EFF6FF;border-color:#BFDBFE;color:#2563EB;">03</div><div class="detail-card-title">Demo Scenario Structured</div><div class="detail-card-desc">Picking, RFID, Load-cell 기반 전시 데모 시나리오를 정리하여 제품 시연 흐름을 구체화했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num" style="background:#EFF6FF;border-color:#BFDBFE;color:#2563EB;">04</div><div class="detail-card-title">Admin Expansion Supported</div><div class="detail-card-desc">Tenant Management의 List / Detail 화면을 설계하여 SSP Admin 관리 기능 확장 기반을 마련했습니다.</div></div>
+          <div class="detail-card"><div class="detail-card-num" style="background:#EFF6FF;border-color:#BFDBFE;color:#2563EB;">05</div><div class="detail-card-title">Development Alignment Improved</div><div class="detail-card-desc">Unity 개발 대응과 View/Edit 기능 검토를 통해 디자인 산출물과 개발 구현 방향을 정렬했습니다.</div></div>
+        </div>
+      </div>
+
+      <!-- 10. Impact in Numbers -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Impact in Numbers</h2>
+        <p class="detail-section-desc">2025년 SSP 확장 가능성 검토 과정에서 외부 솔루션 연동, POC 화면, 전시 데모, Admin 기능 설계까지 다양한 협업 산출물을 정리했습니다.</p>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:32px;">
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:24px 20px;text-align:center;"><div style="font-size:36px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;line-height:1;">2025</div><div style="font-size:13px;color:var(--text-secondary);margin-top:6px;font-weight:500;">진행 연도</div></div>
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:24px 20px;text-align:center;"><div style="font-size:36px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;line-height:1;">4+</div><div style="font-size:13px;color:var(--text-secondary);margin-top:6px;font-weight:500;">주요 협업 프로젝트</div></div>
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:24px 20px;text-align:center;"><div style="font-size:36px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;line-height:1;">3</div><div style="font-size:13px;color:var(--text-secondary);margin-top:6px;font-weight:500;">외부 솔루션 연동 논의</div></div>
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:24px 20px;text-align:center;"><div style="font-size:36px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;line-height:1;">2</div><div style="font-size:13px;color:var(--text-secondary);margin-top:6px;font-weight:500;">POC 제작 참여</div></div>
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:24px 20px;text-align:center;"><div style="font-size:36px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;line-height:1;">2</div><div style="font-size:13px;color:var(--text-secondary);margin-top:6px;font-weight:500;">설계한 POC 유형</div></div>
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:24px 20px;text-align:center;"><div style="font-size:36px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;line-height:1;">3</div><div style="font-size:13px;color:var(--text-secondary);margin-top:6px;font-weight:500;">전시 데모 컨셉</div></div>
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:24px 20px;text-align:center;"><div style="font-size:36px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;line-height:1;">1</div><div style="font-size:13px;color:var(--text-secondary);margin-top:6px;font-weight:500;">Admin 기획 / 디자인 기능</div></div>
+          <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:24px 20px;text-align:center;"><div style="font-size:36px;font-weight:800;color:var(--accent);letter-spacing:-0.03em;line-height:1;">2</div><div style="font-size:13px;color:var(--text-secondary);margin-top:6px;font-weight:500;">Tenant Management 주요 화면</div></div>
+        </div>
+        <div style="background:var(--bg-subtle);border:1px solid var(--border);border-radius:var(--radius-md);padding:24px 28px;">
+          <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px;">
+            <div style="font-size:13px;color:var(--text-secondary);line-height:1.6;"><span style="font-weight:600;color:var(--text-primary);">주요 협업 프로젝트</span><br>Space Vision, Trace it, Seerslab, STI 관련 협업</div>
+            <div style="font-size:13px;color:var(--text-secondary);line-height:1.6;"><span style="font-weight:600;color:var(--text-primary);">외부 솔루션 연동 논의</span><br>Space Vision, Trace it, Seerslab</div>
+            <div style="font-size:13px;color:var(--text-secondary);line-height:1.6;"><span style="font-weight:600;color:var(--text-primary);">POC 제작 참여</span><br>Dashboard POC, Map View POC</div>
+            <div style="font-size:13px;color:var(--text-secondary);line-height:1.6;"><span style="font-weight:600;color:var(--text-primary);">개발 대응 영역</span><br>Unity 개발, View / Edit 기능 검토</div>
+            <div style="font-size:13px;color:var(--text-secondary);line-height:1.6;"><span style="font-weight:600;color:var(--text-primary);">전시 데모 컨셉</span><br>Picking, RFID, Load-cell</div>
+            <div style="font-size:13px;color:var(--text-secondary);line-height:1.6;"><span style="font-weight:600;color:var(--text-primary);">협업 대상</span><br>외부 협력사, 개발팀, 영상 제작사, STI 개발 담당</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 11. Key Takeaway -->
+      <div class="detail-section fade-in">
+        <h2 class="detail-section-title">Key Takeaway</h2>
+        <div class="takeaway-box">
+          <p class="takeaway-text">이 프로젝트를 통해 POC 디자인은 단순히 화면을 빠르게 제작하는 것이 아니라, 사업 가능성, 데이터 흐름, 개발 구현, 데모 시나리오를 하나의 경험으로 연결하는 과정이라는 점을 배웠습니다. 외부 솔루션과 내부 플랫폼 사이의 접점을 화면으로 구체화하며, Product Designer가 초기 사업 검토와 개발 협업 과정에서 어떤 방식으로 기여할 수 있는지 경험했습니다.</p>
+          <div class="badge-group" style="margin-bottom:32px;">
+            <span class="badge">POC UX Design</span>
+            <span class="badge">External Solution Integration</span>
+            <span class="badge">SaaS Admin UX</span>
+            <span class="badge">Map View UX</span>
+            <span class="badge">Dashboard Design</span>
+            <span class="badge">Demo Scenario</span>
+            <span class="badge">Development Collaboration</span>
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <button onclick="closeDetailSSP()" class="btn btn-primary">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 3L5 8l5 5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Back to Portfolio
+            </button>
+            <a href="mailto:kyerin3944@gmail.com" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <a class="footer-logo" href="#" onclick="closeDetailSSP();return false;">YERIN<span>.K</span></a>
+        <p class="footer-copy">© 2025 Yerin Kim. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  </div><!-- /#detail-page-ssp -->
+
   <!-- ===== JAVASCRIPT ===== -->
   <script>
+
+    // --- Page Switch: SSP POC Detail ---
+    function openDetailSSP() {
+      document.getElementById('main-page').style.display = 'none';
+      const p = document.getElementById('detail-page-ssp');
+      p.style.display = 'block';
+      window.scrollTo({ top: 0, behavior: 'instant' });
+      p.querySelectorAll('.fade-in:not(.visible)').forEach(el => observer.observe(el));
+    }
+    function closeDetailSSP() {
+      document.getElementById('detail-page-ssp').style.display = 'none';
+      document.getElementById('main-page').style.display = 'block';
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }
+    // --- Key Work Accordion ---
+    function toggleKeywork(header) {
+      const card = header.closest('.keywork-item');
+      const body = card.querySelector('.keywork-body');
+      const icon = header.querySelector('svg');
+      const isOpen = body.style.maxHeight && body.style.maxHeight !== '0px';
+      // Close all
+      document.querySelectorAll('.keywork-item').forEach(c => {
+        c.querySelector('.keywork-body').style.maxHeight = '0px';
+        c.querySelector('svg').style.transform = 'rotate(0deg)';
+      });
+      if (!isOpen) {
+        body.style.maxHeight = body.scrollHeight + 200 + 'px';
+        icon.style.transform = 'rotate(180deg)';
+      }
+    }
+
     // --- Page Switch ---
     function openDetail() {
       document.getElementById('main-page').style.display = 'none';
